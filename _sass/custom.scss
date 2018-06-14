@@ -99,3 +99,36 @@ img {
 .modal-header .close {
     margin-top: 10px;
 }
+.boxed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.box-inner {
+    /* display: inline-block; */
+    text-align: left;
+    vertical-align: middle;
+    background: #fff;
+    width: 600px;
+    margin: 80px auto;
+
+
+}
+
+.news-head {
+    background: #111;
+    color: #fff;
+    padding: 30px;
+}
+.news-body {
+    padding: 30px;
+}

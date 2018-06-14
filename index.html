@@ -17,8 +17,6 @@
     {% include about.html %}
     {% include projects.html %}
     {% include focus.html %}
-    {% include join.html %}
-    
    
     <!-- Footer -->
     {% include footer.html %}
@@ -46,6 +44,16 @@
 
     <!-- Custom JS -->
     <script src="{{site.baseurl}}/js/script.js" type="text/javascript"></script>
+    
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".slide-toggle").click(function(){
+            $(".boxed").animate({
+                width: "toggle"
+            });
+        });
+    });
+</script>
     
 </body>
 

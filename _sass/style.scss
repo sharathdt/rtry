@@ -1179,3 +1179,10 @@ header.fixed{
 #testimonials {
     background: linear-gradient(111.50716195458574deg, rgba(247, 168, 0,1) 21.552083333333332%,rgba(246, 168, 0,1) 21.552083333333332%,rgba(207, 207, 85,1) 89.88541666666666%);
 }
+
+.slide-toggle {
+    position: fixed !important;
+    right: 0 !important;
+    top: 45% !important;
+    z-index: 1055;
+}
