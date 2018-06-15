@@ -1110,7 +1110,7 @@ header.fixed{
     font-size: 22px;
     box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.15);
     display: none;
-    z-index: 99999;
+    z-index: 1000;
 }
 
 /* Footer */
@@ -1174,18 +1174,4 @@ header.fixed{
 /* Small Devices, Phones */
 @media only screen and (min-width: 460px){
 
-}
-
-#testimonials {
-    background: linear-gradient(111.50716195458574deg, rgba(247, 168, 0,1) 21.552083333333332%,rgba(246, 168, 0,1) 21.552083333333332%,rgba(207, 207, 85,1) 89.88541666666666%);
-}
-
-.slide-toggle {
-    position: fixed !important;
-    right: 0 !important;
-    top: 45% !important;
-    z-index: 1055;
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari */
-    transform: rotate(-90deg);
 }

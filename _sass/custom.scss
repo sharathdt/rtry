@@ -125,10 +125,43 @@ img {
 }
 
 .news-head {
-    background: #111;
+    background: $brand-color;
+    font-weight: bold;
     color: #fff;
     padding: 30px;
 }
 .news-body {
     padding: 30px;
+}
+
+
+#testimonials {
+    background: linear-gradient(111.50716195458574deg, rgba(247, 168, 0,1) 21.552083333333332%,rgba(246, 168, 0,1) 21.552083333333332%,rgba(207, 207, 85,1) 89.88541666666666%);
+}
+
+.slide-toggle {
+    position: fixed !important;
+    right: 0 !important;
+    top: 45% !important;
+    z-index: 1055;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+    
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+
+.btn-info,
+.btn-info:hover{
+    background-color: #204d74;
+}
+
+.hero-3 {
+    
+    @include media-query($on-palm) {
+        margin-top: 0;
+        padding-top: 150px;
+    }
 }
