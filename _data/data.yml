@@ -6,6 +6,24 @@ information:
     twitter:  https://twitter.com/RotaryBLR_INgr
 
 
+menus:
+    - title: Home
+      link: '#home'
+      
+    - title: About Us
+      link: '#about'
+      
+    - title: Focus Areas
+      link: '#our-focus'
+      
+    - title: Contact Us
+      link: '#contact'
+      
+    - title: Join Us
+      link: 'join-us.html'
+      external: yes
+
+
 focus:
     
     - title: Peace & conflict prevention/resolution
