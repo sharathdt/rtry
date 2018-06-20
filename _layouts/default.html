@@ -12,24 +12,8 @@
         <div class="loader" style="background-image: url({{site.baseurl}}/images/rotary.gif); background-repeat: no-repeat;">
         </div>
     </div>
-    <button type="button" class="btn btn-info slide-toggle">NEWS</button>
-    <div class="boxed fade in">
 
-        <div class="box-inner" role="dialog">
-        <div class="news-head">News Bulletin</div>
-        <div class="news-body">
-        <p>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-
-        </p>
-        </div>
-        </div>
-    </div>
-
+ {% include news.html %}
  {% include header.html %}
     
    {{content}}
@@ -59,12 +43,15 @@
     <!-- Appear Js -->
     <script src="{{site.baseurl}}/js/jquery.appear.js" type="text/javascript"></script>
 
+    <!-- AOS -->
+    <script src="{{site.baseurl}}/js/aos.js" type="text/javascript"></script>
+
     <!-- Custom JS -->
     <script src="{{site.baseurl}}/js/script.js" type="text/javascript"></script>
     
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".slide-toggle").click(function(){
+        $(".slide-toggle, .close-btn").click(function(){
             $(".boxed").animate({
                 width: "toggle"
             });
@@ -72,6 +59,15 @@
     });
 </script>
 
+ <script>
+AOS.init({
+  offset: 200,
+  duration: 800,
+  easing: 'ease-in-sine',
+  delay: 100,
+  disable: 'mobile'
+});
+</script>
     
 </body>
 

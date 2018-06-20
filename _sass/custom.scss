@@ -126,12 +126,24 @@ img {
 
 .news-head {
     background: $brand-color;
-    font-weight: bold;
-    color: #fff;
     padding: 30px;
+    position: relative;
+    h3 {
+        display: inline-block;
+        font-weight: bold !important;
+        color: #fff !important;
+        margin: 0;
+    }
 }
 .news-body {
+    color: #333;
     padding: 30px;
+}
+
+.close-btn {
+    float: right;
+    font-size: 2em;
+    color: #fff;
 }
 
 

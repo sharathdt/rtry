@@ -183,6 +183,13 @@ p {
 .timeline-list li:nth-child(4) .content {
   animation-delay:2.3s;
 }
+.timeline-list li:nth-child(5):before {
+  animation-delay:2.2s;
+}
+.timeline-list li:nth-child(5) .content {
+  animation-delay:2.5s;
+}
+
 @keyframes revealFromLeft {
   0% {
     transform:translateX(-1em);
