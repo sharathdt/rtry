@@ -12,9 +12,12 @@ menus:
       
     - title: About Us
       link: '#about'
-      
+
     - title: Focus Areas
       link: '#our-focus'
+      
+    - title: Projects
+      link: '#projects' 
       
     - title: Contact Us
       link: '#contact'
