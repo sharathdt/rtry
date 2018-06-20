@@ -168,3 +168,12 @@ img {
 .underline {
     text-decoration: underline;
 }
+
+.page-headline {
+    font-size: 3em;
+    font-weight: bold;
+    color: $brand-color;
+    @include media-query($on-palm) {
+        font-size: 2em;
+    }
+}
