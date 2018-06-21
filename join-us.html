@@ -64,44 +64,47 @@ permalink: /join-us/
                   </div>
                </div>
             </div>
-            <form data-aos="fade-up">
+            
+             <script type="text/javascript">var submitted=false;</script>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{site.url}}{{site.baseurl}}/thank-you/';}"></iframe>
+            <form data-aos="fade-up" action="https://docs.google.com/forms/d/e/1FAIpQLScn3TaLTvaA6bNMXOqKpy19kxk2_OiWNdQ3R1I7ygtyMlshcw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                <div>
                   <h2>Enter Your Details</h2>
                </div>
                <div class="form-group" >
-                  <input class="form-control" id="example-text-input-inline" type="text" placeholder="Your name" required>
+                  <input class="form-control"  type="text" placeholder="Your name" name="entry.378731428" required>
                </div>
                <div class="form-group">
-                  <input class="form-control" id="example-text-input-inline" type="email" placeholder="Your email" required>
+                  <input class="form-control"  type="email" placeholder="Your email" name="entry.1173343429" required>
                </div>
                <div class="form-group">
-                  <input class="form-control" id="example-text-input-inline" type="tel" placeholder="Your phone number" required>
+                  <input class="form-control"  type="tel" placeholder="Your phone number" name="entry.378516622" required>
                </div>
                <div class="form-group">
-                  <input class="form-control" id="example-text-input-inline" type="text" placeholder="Profession" required>
+                  <input class="form-control"  type="text" placeholder="Profession" name="entry.1360947744" required>
                </div>
                <div class="form-group">
-                  <input class="form-control" id="example-text-input-inline" type="text" placeholder="Employer name (optional)">
+                  <input class="form-control"  type="text" placeholder="Employer name (optional)" name="entry.544292544" >
                </div>
                <div class="form-group">
-                  <select class="form-control" required>
+                  <select class="form-control" required name="entry.857310221">
                      <option value="">Gender</option>
-                     <option value="Male">Male</option>
-                     <option value="Female">Female</option>
-                     <option value="Prefer not to answer">Prefer not to answer</option>
+                     <option value="Male" name="entry.857310221">Male</option>
+                     <option value="Female" name="entry.857310221">Female</option>
+                     <option value="Prefer not to say" name="entry.857310221">Prefer not to answer</option>
                   </select>
                </div>
                <div class="form-group">
-                  <select class="form-control" required>
+                  <select class="form-control" required name="entry.1159587791">
                      <option value="">How did you hear about Rotary?</option>
-                     <option value="Rotary Event">I attended a Rotary event</option>
-                     <option value="Rotary Program">I participated in a Rotary program</option>
-                     <option value="Friends or Family">Through a personal connection (friends or family)</option>
-                     <option value="Media">Through the media</option>
+                     <option value="I attended a Rotary event" name="entry.1159587791">I attended a Rotary event</option>
+                     <option value="I participated in a Rotary program" name="entry.1159587791">I participated in a Rotary program</option>
+                     <option value="Friends or Family" name="entry.1159587791">Through a personal connection (friends or family)</option>
+                     <option value="Through the media">Through the media</option>
                   </select>
                </div>
                <div class="form-group">
-                  <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Any comments?"></textarea>
+                  <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Any comments?" name="entry.874967742"></textarea>
                </div>
                <button class="btn btn-primary" type="submit">Join!</button>
             </form>

@@ -31,7 +31,7 @@ html,body{
 }
 
 body{
-    color: #949494;
+    color: $text-color;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -270,7 +270,7 @@ p{
 /***************************/
 
 h1, h2, h3, h4, h5, h6{
-    color: #909090;
+    color: $text-color;
     font-weight: 300;
     margin-top: 0em;
     margin-bottom: 0.8em;
