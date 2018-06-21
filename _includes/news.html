@@ -8,8 +8,8 @@
         </div>
         <div class="news-body">
         <ul>
-           {% for item in site.data.newsletter %}
-            <li><a href="/newsletters/{{item.id}}">{{item.title}}</a></li>
+           {% for item in site.data.newsletters %}
+            <li><a href="{{site.baseurl}}/newsletters/#{{item.id}}">{{item.title}}</a></li>
             {% endfor %}
 
         </ul>

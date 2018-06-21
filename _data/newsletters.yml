@@ -1,0 +1,17 @@
+
+- title: New website launch on 1st of July.
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quam soluta totam quos dicta dolore amet, commodi inventore voluptas, harum magnam quidem pariatur expedita consequatur sit ab excepturi, placeat eveniet!
+  date: July 1
+  time: '10:00 AM'
+  venue: Indiranagar
+  contact: '+91 80 25267014'
+  id: july-1
+  
+
+- title: Installation on 30th June.
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quam soluta totam quos dicta dolore amet, commodi inventore voluptas, harum magnam quidem pariatur expedita consequatur sit ab excepturi, placeat eveniet!
+  date: June 30
+  time: '10:00 AM'
+  venue: Indiranagar
+  contact: '+91 80 25267014'
+  id: june-30
