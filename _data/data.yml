@@ -23,7 +23,7 @@ menus:
       link: '#contact'
       
     - title: Join Us
-      link: 'join-us.html'
+      link: 'join-us'
       external: yes
 
 
@@ -61,3 +61,19 @@ focus:
       description: We carry out service projects that enhance economic and community development and create opportunities for decent and productive work for young and old.
       link: focus-6
       
+      
+projects:
+    - title: Free Heart Surgery
+      image: /images/surgery.jpg
+      description: We took up the ambitious project of providing 250 Free heart Surgeries/Procedures which has won the Best Cooperative Projects Award.
+      link: project-1
+      
+    - title: Blood Donation Camps
+      image: /images/blood-donation.jpg
+      description: Our Blood Bank has been providing Blood banking & Transfusion services to hospitals & patients in Bangalore and surrounding districts since 1984.
+      link: project-2
+      
+    - title: Cancer Hospice
+      image: /images/karunashraya.jpg
+      description: The story of our flagship project – Karunashraya. Its a story of Care and Compassion built with dedication beyond any defined level!
+      link: project-3

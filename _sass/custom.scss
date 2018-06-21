@@ -23,6 +23,16 @@ img {
         font-weight: bold !important;
 }
 
+.navbar-default .navbar-nav > li > a:focus {
+    color: #f7a800 !important;
+    background-color: transparent;
+}
+
+.scroll-link.active {
+    color: #f7a800 !important;
+    background-color: transparent;
+}
+
 .shadow {
     background-color: rgba(0, 0, 0, 0.18);
     display: inline-block;
@@ -189,5 +199,17 @@ img {
     color: $brand-color;
     @include media-query($on-palm) {
         font-size: 2em;
+    }
+}
+
+.modal-body {
+    .img-responsive, .image {
+        width: 100% !important;
+    }
+}
+
+.btn-menu.donate {
+    &:hover {
+        color: #fff !important; 
     }
 }

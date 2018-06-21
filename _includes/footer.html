@@ -2,28 +2,26 @@
         <div class="footer-pri">            <!-- Primary Footer -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="footer-box about-box">
+                    <div class="col-md-6" data-aos="zoom-in-up">
+                        <div class="footer-box about-box" >
                             <img src="{{site.baseurl}}/images/rotary-indiranagar-logo.png" alt="{{site.title}}">         <!-- Replace woth your logo -->
                             <br/><br/>
                             <p>Rotary Indiranagar touches more than 150,000 lives every year! It is known for its service in Hospice through Karunashraya, Blood donation camps raising more than 15,000 units every year and awareness camps through BleedHope, more than 250 free heart surgeries for the needy, 6 adopted villages and many more projects.</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="footer-box links-box">
+                    <div class="col-md-3" data-aos="zoom-in-up">
+                        <div class="footer-box links-box" >
                             <h5 class="heading">Quick Links</h5>
                             <ul>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Our Causes</a></li>
-                                <li><a href="">Our Focus</a></li>
-                                <li><a href="">FAQ</a></li>
-                                <li><a href="join-us.html">Join Us</a></li>
+                               {% for item in site.data.data.menus offset: 1 %}
+                                 <li><a href="{{site.baseurl}}/{{item.link}}">{{item.title}}</a></li>
+                                {% endfor %}
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="footer-box social-box">
-                            <h5 class="heading">Talk to us</h5>
+                    <div class="col-md-3" data-aos="zoom-in-up">
+                        <div class="footer-box social-box" >
+                            <h5 class="heading">Contact us</h5>
                             <ul class="contact">
                                 <li><a href="tel:{{site.data.data.information.phone}}">{{site.data.data.information.phone}}</a></li>
                                 <li><a href="mailto:{{site.data.data.information.email}}">{{site.data.data.information.email}}</a></li>
@@ -33,7 +31,6 @@
                                 <li><a href="{{site.data.data.information.facebook}}"><i class="ion-social-facebook"></i></a></li>
                                 <li><a href="{{site.data.data.information.twitter}}"><i class="ion-social-twitter"></i></a></li>
                                 <li><a href="mailto:{{site.data.data.information.email}}"><i class="ion-android-mail"></i></a></li>
-                                    <!-- <li><a href=""><i class="ion-social-github"></i></a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -43,7 +40,7 @@
         <div class="footer-sec">            <!-- Secondary Footer -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="zoom-in-up">
                         <span class="copyright">&copy; {{ "now" | date: "%Y" }}. All rights reserved</span>
                     </div>
                     <div class="col-md-4">

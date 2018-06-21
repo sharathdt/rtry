@@ -3,36 +3,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="heading-box">
-                        <h2>Our Causes</h2>
+                    <div class="heading-box" data-aos="fade-up">
+                        <h2>Our Projects</h2>
                         <p class="sub-heading">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                     </div>
                 </div>
     
-                <div class="col-md-4">
+        {% for item in site.data.data.projects %}
+                
+                   <div class="col-md-4 mb-20" data-aos="zoom-in">
                     <div class="box">
-                        <img class="image" src="{{site.baseurl}}/images/surgery.jpg" alt="">
+                        <img class="image" src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}">
                         <div class="inner">
-                            <h3>Free Heart Surgery</h3>
-                            <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
-                            <a class="btn btn-primary btn-block" style="cursor: pointer; outline: 0px;" data-toggle="modal" data-target="#myModal">Read More</a>
+                            <h3>{{item.title}}</h3>
+                            <p>{{item.description}}</p>
+                            <a class="btn btn-primary btn-block" style="cursor: pointer; outline: 0px;" data-toggle="modal" data-target="#{{item.link}}">Read More</a>
                         </div>
                     </div>
                 </div>
 
                         <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
+                    <div id="{{item.link}}" class="modal fade" role="dialog">
                       <div class="modal-dialog">
 
-                        <!-- Modal content-->
+                        <!-- Modal content -->
                         <div class="modal-content">
                           <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Free Heart Surgery</h4>
+                            <h4 class="modal-title">{{item.title}}</h4>
                           </div>
                           <div class="modal-body">
-                           <img class="image" src="{{site.baseurl}}/images/surgery.jpg" alt="">
-                            <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+                           <img class="image" src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}">
+                            <p>{{item.description}}</p>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -41,7 +43,10 @@
 
                       </div>
                     </div>
-                <div class="col-md-4">
+                    
+                {% endfor %}
+                
+<!--                 <div class="col-md-4 mb-20">
                     <div class="box">
                         <img class="image" src="{{site.baseurl}}/images/blood-donation.jpg" alt="" width="100%">
                         <div class="inner">
@@ -51,9 +56,9 @@
                         </div>
                     </div>
                 </div>
-
-    
-                <div class="col-md-4">
+                
+                    
+                <div class="col-md-4 mb-20">
                     <div class="box">
                         <img class="image" src="{{site.baseurl}}/images/karunashraya.jpg" alt="" width="100%">
                         <div class="inner">
@@ -61,61 +66,6 @@
                             <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
                             <a class="btn btn-primary btn-block" style="cursor: pointer; outline: 0px;">Read More</a>
                         </div>
-                    </div>
-                </div>
-
-                <!-- <div class="col-md-4">
-                    <div class="icon-box-1">
-                        <div class="icon">
-                            <i class="ion-ios-game-controller-b-outline"></i>
-                        </div>
-                        <h4>Realistic Gaming</h4>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="icon-box-1">
-                        <div class="icon">
-                            <i class="ion-ios-mic-outline"></i>
-                        </div>
-                        <h4>Built-in Mic</h4>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="icon-box-1">
-                        <div class="icon">
-                            <i class="ion-ios-settings"></i>
-                        </div>
-                        <h4>Fully Cutomizable</h4>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="icon-box-1">
-                        <div class="icon">
-                            <i class="ion-ios-cloud-upload-outline"></i>
-                        </div>
-                        <h4>Free Cloud Storage</h4>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="icon-box-1">
-                        <div class="icon">
-                            <i class="ion-ios-unlocked-outline"></i>
-                        </div>
-                        <h4>Child Lock</h4>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="icon-box-1">
-                        <div class="icon">
-                            <i class="ion-ios-color-filter-outline"></i>
-                        </div>
-                        <h4>16 Million Colors</h4>
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                     </div>
                 </div> -->
             </div>

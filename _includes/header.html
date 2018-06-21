@@ -2,7 +2,7 @@
 
 
           <header>
-           <!-- Navigation Bar-->
+           <!-- Navigation Bar -->
             <nav class="navbar navbar-default">
                 <div class="container">
                     <div class="row">
@@ -19,12 +19,12 @@
                                 <ul class="nav navbar-nav">          <!-- Menu -->
                                    {% for item in site.data.data.menus %}
                                    <li>
-                                       <a href="{{site.baseurl}}/{{item.link}}" class="scroll-link">{{item.title}}</a> 
+                                       <a href="{{site.baseurl}}/{{item.link}}" class="scroll-link {% if page.url contains item.link %}active{% endif %}" >{{item.title}}</a> 
                                    </li>
                                    {% endfor %}
                                     
                                     <li>
-                                        <a href="{{site.baseurl}}/donate.html" class="btn-menu scroll-link">Donate</a>          <!-- Menu Button -->
+                                        <a href="{{site.baseurl}}/donate/" class="btn-menu donate">Donate</a>          <!-- Menu Button -->
                                     </li>
 
                                 </ul>
