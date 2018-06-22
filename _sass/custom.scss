@@ -16,7 +16,8 @@ img {
 .hero-heading {
     font-size: 3em !important;
     font-weight: bold;
-    color:  #ff0 !important; 
+    color:  #ff0 !important;
+    text-shadow: 0px 0px 1px;
 }
 
 .hero-text {
@@ -219,14 +220,13 @@ img {
 }
 
 .box-container {
-    height: 350px;
+    height: 370px;
     margin-bottom:  20px;
 }
 .box-1 {
     height: 100%;
-    background-color: #019fcb;
-    /* border-bottom: 1px solid #019fcb; */
-
+    background-color: white;
+    border-bottom: 5px solid #019fcb;
 
     h4 {
         text-align: center;
@@ -240,6 +240,16 @@ img {
     }
 }
 
+.box-2 {
+    border-bottom: 5px solid #01a2a2;
+}
+.box-3 {
+    border-bottom: 5px solid #963a86;
+}
+
+.blue {
+    background-color: #019fcb;
+}
 .green {
     background-color: #01a2a2;
 }

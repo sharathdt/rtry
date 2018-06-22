@@ -24,6 +24,8 @@ $comp-color:       #0033A0;
 $grey-color:       #666;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$delay:            2s;
+
 
 // Width of the content area
 $content-width:    800px;
