@@ -288,4 +288,10 @@ img {
 .news-box {
     padding: 30px;
     border-left: 5px solid #01a2a2;
+    .gr {
+        color: #01a2a2;
+        span {
+            color: $text-color;
+        }
+    }
 }
