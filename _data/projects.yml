@@ -26,7 +26,7 @@
 - title: WASH
   category: sanitation
   image: WASH.jpg
-  description:    
+  description: 'The WASH in Schools Target Challenge is a pilot program created to motivate Rotary clubs to develop sustainable water, sanitation, hygiene (collectively referred to as WASH), and education projects using the expertise and resources available through two of Rotary’s areas of focus: basic education and literacy and water and sanitation.'    
   
 - title: Anganwadis
   category: saving
@@ -45,18 +45,18 @@
         
 - title: Hoskote Government School
   category: education
-  image: 
+  image: hosakote-project.jpg
   description:  
   
 - title: T-E-A-C-H
   category: education
-  image: 
-  description: 
+  image: teach.jpg
+  description: 'Rotary in India through “Rotary India Literacy Mission” has embarked upon one of the most comprehensive programs on Total Literacy and Quality Education. This mission wishes to achieve the literacy goals through its comprehensive program called T-E-A-C-H'
   
 - title: Sonahallipura Village Microcredit
   category: community
   image: sonapalli-government-school.jpg
-  description:
+  description: Provide all round facilities to the adopted village of Sonahallipura, Bangalore Rural district. Bus shelter, healthcare camps, Anganwadi, micro credit for women entrepreneurs, and many more ongoing projects.
     
 - title: Bus Shelter
   category: community
