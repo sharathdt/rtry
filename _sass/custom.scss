@@ -365,6 +365,13 @@ img {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
+
+    }
+    
+    .hero-box {
+        position: absolute;
+        left: 20%;
+        top: 25vh;
     }
 }
 
@@ -401,4 +408,8 @@ img {
 }
 #about {
     background-color: beige;
+}
+
+.relative {
+    position: relative;
 }
