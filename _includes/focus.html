@@ -29,25 +29,35 @@
                   <!-- Modal -->
         <div id="{{item.link}}" class="modal fade" role="dialog">
           <div class="modal-dialog">
-
+            
             <!-- Modal content -->
+ 
             <div class="modal-content">
+            <div class="modal-body">
+                <h3 class="modal-title">{{item.title}}</h3>
+                <p>{{item.description}}</p>
+            </div>
+            {% for pro in site.data.projects %}
+            {% if pro.category == item.category %}
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">{{item.title}}</h4>
+                <h4 class="modal-title">{{pro.title}}</h4>
                   
               </div>
               <div class="modal-body">
-               <img class="img-responsive" src="{{site.baseurl}}{{item.image}}" alt="website template image">
+               <img class="img-responsive" src="{{site.baseurl}}/images/projects/{{pro.image}}" alt="{{pro.title}}">
                <br>
-                <p>{{item.description}}</p>
+                <p>{{pro.description}}</p>
 
               </div>
-              <div class="modal-footer">
+
+                {% endif %}
+            {% endfor %}
+             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
-
+   
           </div>
         </div>
  
@@ -77,20 +87,31 @@
 
             <!-- Modal content -->
             <div class="modal-content">
+            <div class="modal-body">
+                <h3 class="modal-title">{{item.title}}</h3>
+                <p>{{item.description}}</p>
+            </div>
+            {% for pro in site.data.projects %}
+            {% if pro.category == item.category %}
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">{{item.title}}</h4>
+                <h4 class="modal-title">{{pro.title}}</h4>
                   
               </div>
               <div class="modal-body">
-               <img class="img-responsive" src="{{site.baseurl}}{{item.image}}" alt="website template image">
+               <img class="img-responsive" src="{{site.baseurl}}/images/projects/{{pro.image}}" alt="{{pro.title}}">
                <br>
-                <p>{{item.description}}</p>
+                <p>{{pro.description}}</p>
+
               </div>
-              <div class="modal-footer">
+
+                {% endif %}
+            {% endfor %}
+             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
+   
 
           </div>
         </div>

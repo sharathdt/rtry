@@ -1,17 +1,17 @@
 - title: Heartcare
   category: fighting
-  image:
-  description:
+  image: 
+  description: Provide free heart surgeries to children from India, Pakistan, Bangladesh, Indonesia and other countries. Over 8000 surgeries performed till date.
   
 - title: Karunashraya
   category: fighting
-  image:
-  description:
+  image: karunashraya-2.jpg
+  description: The story of our flagship project – Karunashraya. Its a story of Care and Compassion built with dedication beyond any defined level!
     
 - title: Netradeep
   category: fighting
   image:
-  description:    
+  description: Netradeep eye hospital in Kolar offers free cataract surgeries to needy people in backward areas of Kolar district. The hospital also does outreach programs for eye testing in far flung areas of Kolar district.   
   
 - title: Dialysis Consumables
   category: fighting
@@ -25,7 +25,7 @@
       
 - title: WASH
   category: sanitation
-  image:
+  image: WASH.jpg
   description:    
   
 - title: Anganwadis
@@ -36,7 +36,7 @@
 - title: Scholarship Programme
   category: education
   image:
-  description:
+  description: We offer scholarship from Class XI/PUC till Post Graduation, Parent profile- farmers, labourers, drivers, housemaids, and security guards with an aim to provide financial assistance to needy.
       
 - title: Adopted Schools
   category: education
@@ -45,17 +45,17 @@
         
 - title: Hoskote Government School
   category: education
-  image:
+  image: sonapalli-government-school.jpg
   description:  
   
 - title: T-E-A-C-H
   category: education
-  image:
+  image: 
   description: 
   
 - title: Sonahallipura Village Microcredit
   category: community
-  image:
+  image: 
   description:
     
 - title: Bus Shelter

@@ -322,10 +322,11 @@ img {
 
 
 .footer {
-    img {
-        opacity: 0.7;
+    .about-box {
+        img {
+            opacity: 0.7;
+        }
     }
-    
     .contact {
         li {
             a {
@@ -334,6 +335,11 @@ img {
                 }
             }
         }
+    }
+    
+    .polio {
+        padding: 10px;
+        opacity: 0.9;
     }
 }
 
