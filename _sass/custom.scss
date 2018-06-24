@@ -25,7 +25,8 @@ img {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: $text-color;
+    color: #777;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a:focus {
@@ -389,4 +390,7 @@ img {
     width: 800px;
     max-width: 100%;
     margin: 0;
+    .close {
+        font-size: 30px;
+    }
 }
