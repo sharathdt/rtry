@@ -16,6 +16,7 @@
                                {% for item in site.data.data.menus offset: 1 %}
                                  <li><a href="{{site.baseurl}}/{{item.link}}">{{item.title}}</a></li>
                                 {% endfor %}
+                                <li><a href="{{site.baseurl}}/newsletters/">Newsletters</a></li>
                             </ul>
                         </div>
                     </div>
@@ -32,8 +33,14 @@
                                 <li><a href="{{site.data.data.information.twitter}}"><i class="ion-social-twitter"></i></a></li>
                                 <li><a href="mailto:{{site.data.data.information.email}}"><i class="ion-android-mail"></i></a></li>
                             </ul>
+                            <br>
+                            <div class="text-left pt-20">
+                                <img class="polio" width="80" src="{{site.baseurl}}/images/logo-end-polio.svg" alt="End Polio Logo">
+                            </div>
                         </div>
+                        
                     </div>
+                    
                 </div>
             </div>
         </div>
