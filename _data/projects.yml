@@ -5,7 +5,7 @@
   
 - title: Karunashraya
   category: fighting
-  image: karunashraya-2.jpg
+  image: karunashraya.jpg
   description: The story of our flagship project – Karunashraya. Its a story of Care and Compassion built with dedication beyond any defined level!
     
 - title: Netradeep
@@ -45,7 +45,7 @@
         
 - title: Hoskote Government School
   category: education
-  image: sonapalli-government-school.jpg
+  image: 
   description:  
   
 - title: T-E-A-C-H
@@ -55,7 +55,7 @@
   
 - title: Sonahallipura Village Microcredit
   category: community
-  image: 
+  image: sonapalli-government-school.jpg
   description:
     
 - title: Bus Shelter

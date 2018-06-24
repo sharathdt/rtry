@@ -219,6 +219,10 @@ img {
 }
 
 .btn-menu.donate {
+    @include media-query($on-palm) {
+        display: inline-block;
+    }
+    
     &:hover {
         color: #fff !important; 
     }
@@ -393,4 +397,7 @@ img {
     .close {
         font-size: 30px;
     }
+}
+#about {
+    background-color: beige;
 }
