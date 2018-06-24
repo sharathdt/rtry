@@ -353,9 +353,40 @@ img {
     background-color: #343a40 !important;
 }
 
-.item {
-    height: 475px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+.owl-intro {
+    .item {
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+}
+
+.hero-box {
+    img {
+        width: 150px !important;
+    }
+}
+
+.owl-projects {
+    .box {
+        .body {
+            padding: 20px;
+        }
+    }
+    
+    .image {
+        width: 100%;   
+        min-height: 320px;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 0px 4px 4px 0;
+    }
+}
+
+.project-modal {
+    width: 800px;
+    max-width: 100%;
+    margin: 0;
 }

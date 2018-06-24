@@ -51,11 +51,24 @@ layout: compress
     <script src="{{site.baseurl}}/js/script.js" type="text/javascript"></script>
     
 <script>
-$('.owl-carousel').owlCarousel({
+$('.owl-intro').owlCarousel({
     items:1,
     loop:true,
+    autoplay: true,
     margin:0,
     nav:false,
+    dots: false
+
+})    
+</script>
+
+<script>
+$('.owl-projects').owlCarousel({
+    items:1,
+    loop:true,
+    autoplay: false,
+    margin:0,
+    nav:true,
     dots: false
 
 })    

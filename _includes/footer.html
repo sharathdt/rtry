@@ -14,7 +14,7 @@
                             <h5 class="heading">Quick Links</h5>
                             <ul>
                                {% for item in site.data.data.menus offset: 1 %}
-                                 <li><a href="{{site.baseurl}}/{{item.link}}">{{item.title}}</a></li>
+                                 <li><a class="scroll-link" href="{{site.baseurl}}/{{item.link}}">{{item.title}}</a></li>
                                 {% endfor %}
                                 <li><a href="{{site.baseurl}}/newsletters/">Newsletters</a></li>
                             </ul>

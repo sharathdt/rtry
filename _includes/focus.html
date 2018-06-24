@@ -28,18 +28,21 @@
                  
                   <!-- Modal -->
         <div id="{{item.link}}" class="modal fade" role="dialog">
-          <div class="modal-dialog">
+          <div class="modal-dialog project-modal">
             
             <!-- Modal content -->
  
             <div class="modal-content">
             <div class="modal-body">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h3 class="modal-title">{{item.title}}</h3>
                 <p>{{item.description}}</p>
             </div>
+            <div class="owl-carousel owl-projects owl-theme">
             {% for pro in site.data.projects %}
             {% if pro.category == item.category %}
-              <div class="modal-header">
+             
+              <!-- <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title">{{pro.title}}</h4>
                   
@@ -48,11 +51,31 @@
                <img class="img-responsive" src="{{site.baseurl}}/images/projects/{{pro.image}}" alt="{{pro.title}}">
                <br>
                 <p>{{pro.description}}</p>
-
-              </div>
+              
+              </div> -->
+                <div class="item">
+                  <div class="box bg-img" style="background-image: url({{site.baseurl}}/images/geo-red.png)">
+                   <div class="row">
+                       <div class="col-md-6">
+                         <div class="body" >
+                           <h4 class="white">{{pro.title}}</h4>
+                           <p class="white">{{pro.description}}</p>
+                         </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="image" style="background-image: url({{site.baseurl}}/images/projects/{% if pro.image %}{{pro.image}}{% else %}kids.jpg{% endif %})">
+                               
+                           </div>
+                       </div>
+                   </div>
+                  </div>
+                </div>
+                
+                
 
                 {% endif %}
             {% endfor %}
+                </div>
              <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -83,17 +106,21 @@
                  
                   <!-- Modal -->
         <div id="{{item.link}}" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-
+          <div class="modal-dialog project-modal">
+            
             <!-- Modal content -->
+ 
             <div class="modal-content">
             <div class="modal-body">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h3 class="modal-title">{{item.title}}</h3>
                 <p>{{item.description}}</p>
             </div>
+            <div class="owl-carousel owl-projects owl-theme">
             {% for pro in site.data.projects %}
             {% if pro.category == item.category %}
-              <div class="modal-header">
+             
+              <!-- <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title">{{pro.title}}</h4>
                   
@@ -102,17 +129,36 @@
                <img class="img-responsive" src="{{site.baseurl}}/images/projects/{{pro.image}}" alt="{{pro.title}}">
                <br>
                 <p>{{pro.description}}</p>
-
-              </div>
+              
+              </div> -->
+                <div class="item">
+                  <div class="box bg-img" style="background-image: url({{site.baseurl}}/images/geo-red.png)">
+                   <div class="row">
+                       <div class="col-md-6">
+                         <div class="body" >
+                           <h4 class="white">{{pro.title}}</h4>
+                           <p class="white">{{pro.description}}</p>
+                         </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="image" style="background-image: url({{site.baseurl}}/images/projects/{% if pro.image %}{{pro.image}}{% else %}kids.jpg{% endif %})">
+                               
+                           </div>
+                       </div>
+                   </div>
+                  </div>
+                </div>
+                
+                
 
                 {% endif %}
             {% endfor %}
+                </div>
              <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
    
-
           </div>
         </div>
  
