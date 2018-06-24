@@ -38,6 +38,7 @@ body{
     letter-spacing: 0.015em;
     position: relative;
     overflow-x: hidden;
+    text-rendering: optimizeLegibility;
 }
 
 a{
@@ -276,6 +277,7 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 0.8em;
     line-height: 1.2em;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 h1{font-size: 34px;}

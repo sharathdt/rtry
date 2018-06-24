@@ -24,6 +24,10 @@ img {
         font-weight: bold !important;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: $text-color;
+}
+
 .navbar-default .navbar-nav > li > a:focus {
     color: #f7a800 !important;
     background-color: transparent;
@@ -47,6 +51,7 @@ img {
     position: relative;
     background: #fff;
     width: 90%;
+    height: 320px;
     padding: 30px;
     float: right;
     margin-top: -5em;
@@ -55,6 +60,11 @@ img {
     -webkit-box-shadow: 0 10px 20px -12px rgba(0,0,0,.18);
     -moz-box-shadow: 0 10px 20px -12px rgba(0,0,0,.18);
     box-shadow: 0 10px 20px -12px rgba(0,0,0,.18);
+    
+    @include media-query($on-palm) { 
+        height: auto;
+    }
+    
 }
 
 .fh5co-blog .blog-text span.posted_by {
@@ -75,13 +85,6 @@ img {
 .fh5co-blog .blog-text span {
     display: inline-block;
     margin-bottom: 20px;
-}
-.footer {
-    img {
-        -webkit-filter: grayscale(1);
-                filter: grayscale(1);
-        opacity: 0.4;
-    }
 }
 
 .loader {
@@ -233,6 +236,7 @@ img {
         text-align: center;
         color: #fff;
         padding: 30px;
+        font-weight: normal;
     }
     p {
         height: 215px;
@@ -267,6 +271,7 @@ img {
          border: 1px solid #ccc;
         h4 {
             padding: 20px;
+            font-weight: normal;
             }
         
         .btn {
@@ -315,3 +320,29 @@ img {
 }
 
 
+
+.footer {
+    img {
+        opacity: 0.7;
+    }
+    
+    .contact {
+        li {
+            a {
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.footer-pri {
+    border-top: none;
+    border-bottom: 1px solid #555;
+    background-color: #343a40 !important;
+}
+.footer-sec {
+    background-color: #343a40 !important;
+}
