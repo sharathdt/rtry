@@ -21,6 +21,7 @@ img {
     
     @include media-query($on-palm) {
         font-size: 2em !important;
+        margin: 0;
     }
     
 }
@@ -425,8 +426,8 @@ img {
         left: 0%;
         top: 53vh;
         @include media-query($on-palm) {
-            left: 10%;
-            top: 21vh;
+            left: 5%;
+            top: 25vh;
         }
     }
 }
