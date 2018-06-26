@@ -454,6 +454,12 @@ img {
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 0px 4px 4px 0;
+        
+        @include media-query($on-palm) {
+            min-height: 200px;
+            height: auto;
+        }
+        
     }
 }
 
@@ -487,4 +493,13 @@ li {
         display: inline-block;
     }
 }
+}
+
+.project-modal {
+    .modal-title, .modal-description, .close {
+
+        @include media-query($on-palm) {
+                display: none;
+        }
+    }
 }
