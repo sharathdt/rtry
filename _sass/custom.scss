@@ -407,6 +407,12 @@ img {
 }
 .footer-sec {
     background-color: #343a40 !important;
+    
+    .rights, .dev {
+        @include media-query($on-palm) {
+            text-align: center;
+        }
+    }
 }
 
 .owl-intro {
