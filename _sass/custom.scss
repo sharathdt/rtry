@@ -510,3 +510,13 @@ li {
         }
     }
 }
+
+.video {
+    height: 315px;
+    width: 100%;
+    border: 2px solid $brand-color;
+    
+    @include media-query($on-palm) {
+        height: 165px;
+    }
+}

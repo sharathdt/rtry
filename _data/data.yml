@@ -17,7 +17,10 @@ menus:
       link: '#our-focus'
       
     - title: Projects
-      link: '#projects' 
+      link: '#projects'  
+      
+    - title: Videos
+      link: '#videos' 
       
     - title: Contact Us
       link: '#contact'
