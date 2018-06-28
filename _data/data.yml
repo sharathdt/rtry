@@ -74,7 +74,7 @@ focus:
 projects:
     - title: Free Heart Surgery
       image: /images/surgery.jpg
-      description: We took up the ambitious project of providing 250 Free heart Surgeries/Procedures which has won the Best Cooperative Projects Award.
+      description: We took up the ambitious project of providing 250 free heart surgeries/year which has won the Best Cooperative Projects Award.
       link: project-1
       
     - title: Blood Donation Camps
@@ -82,7 +82,7 @@ projects:
       description: Our Blood Bank has been providing Blood banking & Transfusion services to hospitals & patients in Bangalore and surrounding districts since 1984.
       link: project-2
       
-    - title: Cancer Hospice
+    - title: Karunashraya Hospice
       image: /images/karunashraya.jpg
       description: The story of our flagship project – Karunashraya. Its a story of Care and Compassion built with dedication beyond any defined level!
       link: project-3
