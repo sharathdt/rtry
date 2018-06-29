@@ -1,6 +1,6 @@
 - title: Heartcare
   category: fighting
-  image: 
+  image: surgery.jpg
   description: Provide free heart surgeries to children from India, Pakistan, Bangladesh, Indonesia and other countries. Over 8000 surgeries performed till date.
   
 - title: Karunashraya
@@ -10,12 +10,12 @@
     
 - title: Netradeep
   category: fighting
-  image:
+  image: Netradeep-eye-hospital.jpg
   description: Netradeep eye hospital in Kolar offers free cataract surgeries to needy people in backward areas of Kolar district. The hospital also does outreach programs for eye testing in far flung areas of Kolar district.   
   
 - title: Dialysis Consumables
   category: fighting
-  image:
+  image: dialysis-2.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.
     
 - title: Jal Jeevan
@@ -30,12 +30,12 @@
   
 - title: Anganwadis
   category: saving
-  image:
+  image: anaganwadi.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.  
 
-- title: BGMS
+- title: Bhartiya Gram Mahila Samaj
   category: saving
-  image: 
+  image: bgms.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.
     
 - title: Scholarship Programme
@@ -65,12 +65,12 @@
     
 - title: Bus Shelter
   category: community
-  image:
+  image: sonahallipura-bus-shelter.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.   
   
 - title: Community centre
   category: community
-  image:
+  image: sonahallipura-community-center.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.  
   
 - title: Health Clinic
