@@ -448,6 +448,22 @@ img {
 }
 
 .owl-projects {
+    
+    .owl-prev, .owl-next {
+         transition-duration: 300ms;
+         background-color: transparent !important;
+         outline: none;
+         
+         &:hover {
+            -moz-transform: scale(1.6);
+            -ms-transform: scale(1.6);
+            -o-transform: scale(1.6);
+            -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+        }
+        
+    }
+    
     .box {
         .body {
             padding: 20px;
@@ -519,4 +535,8 @@ li {
     @include media-query($on-palm) {
         height: 165px;
     }
+}
+
+.dark-shadow {
+    text-shadow: 0 0 10px #000000;
 }
