@@ -31,6 +31,11 @@
 - title: Anganwadis
   category: saving
   image:
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.  
+
+- title: BGMS
+  category: saving
+  image: 
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.
     
 - title: Scholarship Programme
@@ -55,7 +60,7 @@
   
 - title: Sonahallipura Village Microcredit
   category: community
-  image: sonapalli-government-school.jpg
+  image: woman in a village
   description: Provide all round facilities to the adopted village of Sonahallipura, Bangalore Rural district. Bus shelter, healthcare camps, Anganwadi, micro credit for women entrepreneurs, and many more ongoing projects.
     
 - title: Bus Shelter
