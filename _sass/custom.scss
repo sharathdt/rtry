@@ -20,14 +20,19 @@ img {
     text-shadow: 0px 0px 1px;
     
     @include media-query($on-palm) {
-        font-size: 2em !important;
+        font-size: 1.5em !important;
         margin: 0;
     }
     
 }
 
 .hero-text {
-        font-weight: bold !important;
+        
+    font-weight: bold !important;
+       
+    @include media-query($on-palm) {
+        font-size: $base-font-size * 0.8;
+    }
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -200,7 +205,7 @@ img {
 }
 
 .hero-3 {
-    
+
     @include media-query($on-palm) {
         margin-top: 0;
         padding: 150px 0 50px 0;
@@ -425,13 +430,13 @@ img {
 
 .owl-intro {
     .item {
-        height: 800px;
+        height: 100vh;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
         
         @include media-query($on-palm) {
-            height: 400px;
+            height: 50vh;
         }
     }
     
@@ -498,9 +503,25 @@ img {
     width: 800px;
     max-width: 100%;
     margin: 0;
+    
+    .modal-content {
+        background-color: #222;
+        color: #fff;
+         
+        h3 {
+            color: #fff;
+        }
+    }
+    
     .close {
+        color: #fff;
         font-size: 30px;
     }
+    
+    .modal-footer {
+        border: none;
+    }
+    
 }
 #about {
     background-color: beige;
@@ -548,3 +569,11 @@ li {
 .dark-shadow {
     text-shadow: 0 0 10px #000000;
 }
+
+.navbar-default {
+    padding: 20px 0;
+}
+.navbar-header {
+    margin-bottom: 0;
+}
+
