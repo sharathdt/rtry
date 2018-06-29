@@ -522,7 +522,16 @@ img {
         border: none;
     }
     
+    .owl-prev {
+        margin-right: 10px !important;
+    }    
+    
+    .owl-next {
+        margin-left: 10px !important;
+    }
+    
 }
+
 #about {
     background-color: beige;
 }
