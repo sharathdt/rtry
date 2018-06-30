@@ -34,7 +34,7 @@ permalink: /newsletters/
                 <h2>{{item.title}}</h2>
                 <hr>
                 <p>{{item.description}}</p>
-<p class="text-right gr"><small>{{item.date}}  <span>|</span>  {{item.time}}  <span>|</span>  {{item.venue}}  <span>|</span>  {{item.contact}} {% if item.pdf %}<span> | </span><a href="{{site.baseurl}}/newsletters/{{item.pdf}}" target="_blank">pdf <span class="ion ion-document"></span></a> {% endif %}</small></p>
+<p class="text-right gr"><small>{% if item.date %}{{item.date}}{% endif %}  {% if item.time %}<span>|</span>  {{item.time}}{% endif %}  {% if item.venue %}<span>|</span>  {{item.venue}} {% endif %}  {% if item.contact %}<span>|</span>  {{item.contact}}{% endif %} {% if item.pdf %}<span> | </span><a href="{{site.baseurl}}/newsletters/{{item.pdf}}" target="_blank">pdf <span class="ion ion-document"></span></a> {% endif %}</small></p>
                 
              </div>
           </div>
