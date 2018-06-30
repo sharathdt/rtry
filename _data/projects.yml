@@ -20,7 +20,7 @@
     
 - title: Jal Jeevan
   category: sanitation
-  image:
+  image: jal-jeevan.jpg
   description: Donate water filter to households which are below poverty lines. 
       
 - title: WASH
@@ -31,7 +31,7 @@
 - title: Anganwadis
   category: saving
   image: anaganwadi.jpg
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.  
+  description: Anaganwadis at Kammasnadra village and Lakkondahalli village have been renovated at a cost of ₹3 lakhs. We plan to renovate 100 anganwadis in the coming year.  
 
 - title: Bhartiya Gram Mahila Samaj
   category: saving
@@ -40,12 +40,12 @@
     
 - title: Scholarship Programme
   category: education
-  image:
+  image: scholarship-for-students.jpg
   description: We offer scholarship from Class XI/PUC till Post Graduation, Parent profile- farmers, labourers, drivers, housemaids, and security guards with an aim to provide financial assistance to needy.
       
 - title: Adopted Schools
   category: education
-  image:
+  image: adopted-school.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.
         
 - title: Hoskote Government School
@@ -60,7 +60,7 @@
   
 - title: Sonahallipura Village Microcredit
   category: community
-  image: woman in a village
+  image: sannahallipura-microvillage.jpg
   description: Provide all round facilities to the adopted village of Sonahallipura, Bangalore Rural district. Bus shelter, healthcare camps, Anganwadi, micro credit for women entrepreneurs, and many more ongoing projects.
     
 - title: Bus Shelter
@@ -72,9 +72,4 @@
   category: community
   image: sonahallipura-community-center.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.  
-  
-- title: Health Clinic
-  category: community
-  image:
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.
   
