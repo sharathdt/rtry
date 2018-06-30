@@ -1,19 +1,20 @@
 "use strict";
 
+/*
 $(document).on("ready",function(){
 
     $(".loader-backdrop").fadeOut();            // Pre Loader
     
 });
+*/
 
-/*
 $(window).on("load",function(){
 
     $(".loader-backdrop").fadeOut();            // Pre Loader
     
 });
 
-*/
+
 /* Function Calls */
 
 $(document).ready(function(){
