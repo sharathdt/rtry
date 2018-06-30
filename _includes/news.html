@@ -9,7 +9,7 @@
         <div class="news-body">
         <ul>
            {% for item in site.data.newsletters %}
-            <li><a href="{{site.baseurl}}/newsletters/#{{item.id}}">{{item.title}}</a></li>
+            <li><a class="scroll-link" href="{{site.baseurl}}/newsletters/#{{item.id}}">{{item.title}}</a></li>
             {% endfor %}
 
         </ul>
