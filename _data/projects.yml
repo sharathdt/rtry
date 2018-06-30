@@ -16,8 +16,8 @@
 - title: Dialysis Consumables
   category: fighting
   image: dialysis-2.jpg
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae obcaecati repudiandae iure sapiente esse, possimus soluta. Soluta quod quia deleniti possimus excepturi, ipsa, minus nostrum laudantium quos, ipsam alias quam.
-    
+  description: With your support, we provide dialysis for the needy from 1 day dialysis to a complete year dialysis.
+  
 - title: Jal Jeevan
   category: sanitation
   image: jal-jeevan.jpg
@@ -47,7 +47,7 @@
 - title: Adopted Schools
   category: education
   image: adopted-school.jpg
-  description: Hutting School, Indiranagar, Govt. School B Narayanpura School, Govt School Hoodi school, Navprajna Public School, MArathahalli, BBMP School, Srirampura Govt. Primary School Garudacharpalya.
+  description: 'These are the schools we have adopted: <ul><li>Hutting School, Indiranagar</li><li>Govt. School, B Narayanpura School</li><li>Govt School, Hoodi </li><li>Navprajna Public School, Marathahalli</li><li> BBMP School, Srirampura</li><li>Govt. Primary School, Garudacharpalya</li></ul>.'
   
 - title: Hoskote Government School
   category: education
