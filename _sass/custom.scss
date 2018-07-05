@@ -436,7 +436,7 @@ img {
         background-position: center center;
         
         @include media-query($on-palm) {
-            height: 50vh;
+            height: 60vh;
         }
     }
     
