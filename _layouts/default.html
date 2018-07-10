@@ -103,7 +103,14 @@ AOS.init({
 });
 </script>
     
-
+<script>
+$('#rzp-button4').click(function(e){
+   e.preventDefault();
+   options.amount = $('#razr-enter').val() * 100;
+   var rzp4 = new Razorpay(options);   
+   rzp4.open()
+});    
+</script>
     
     
 </body>
