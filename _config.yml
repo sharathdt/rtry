@@ -1,6 +1,10 @@
 #baseurl: /rtry
 
 
+
+rzp-key: rzp_test_JHnpJryvRjWVkF #test
+# rzp-key: rzp_live_zHRVlE1ArZvSYS #live
+
 #optimization
 #compress.html
 compress_html:

@@ -118,7 +118,7 @@ permalink: /donate/
 
 <script>
 var options = {
-    "key": "rzp_live_zHRVlE1ArZvSYS",
+    "key": "{{site.rzp-key}}",
     "amount": "100000", 
     "name": "{{site.data.data.information.title}}",
     "description": "Cateract Surgery",
@@ -137,7 +137,7 @@ document.getElementById('rzp-button1').onclick = function(e){
 
 <script>
 var options = {
-    "key": "rzp_live_zHRVlE1ArZvSYS",
+    "key": "{{site.rzp-key}}",
     "amount": "2500000", 
     "name": "{{site.data.data.information.title}}",
     "description": "Scholarship",
@@ -156,7 +156,7 @@ document.getElementById('rzp-button2').onclick = function(e){
 
 <script>
 var options = {
-    "key": "rzp_live_zHRVlE1ArZvSYS",
+    "key": "{{site.rzp-key}}",
     "amount": "3500000", 
     "name": "{{site.data.data.information.title}}",
     "description": "Heart Surgery",
@@ -173,45 +173,3 @@ document.getElementById('rzp-button3').onclick = function(e){
 }
 </script>
 
-
-<!-- <script>
-var options = {
-    "key": "rzp_live_zHRVlE1ArZvSYS",
-
-    "name": "{{site.data.data.information.title}}",
-    "description": "Heart Surgery",
-    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
-    "handler": function (response){
-        alert(response.razorpay_payment_id);
-    }
-};
-var rzp4 = new Razorpay(options);
-
-document.getElementById('rzp-button4').onclick = function(e){
-    rzp4.open();
-    e.preventDefault();
-}
-</script> -->
-
-
-<!--  <script defer>
- 
-    var amt = document.getElementById('razr-enter').value; 
- 
- var options = {
-    "key": "rzp_live_zHRVlE1ArZvSYS",
-    "amount": amt * 100, 
-    "name": "{{site.data.data.information.title}}",
-    "description": "Donate any amount",
-    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
-    "handler": function (response){
-        alert(response.razorpay_payment_id);
-    }
- };
- var rzp4 = new Razorpay(options);
- 
- document.getElementById('rzp-button4').onclick = function(e){
-    rzp4.open();
-    e.preventDefault();
- }
- </script> -->
