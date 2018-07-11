@@ -586,3 +586,19 @@ li {
     margin-bottom: 0;
 }
 
+
+.page {
+    padding: 150px 0;
+    
+       @include media-query($on-palm) {
+            padding: 100px 0;
+    }
+}
+
+.page-title {
+    font-size: 2em;
+    
+    @include media-query($on-palm) {
+            font-size: 1.8em;
+    }
+}
