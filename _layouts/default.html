@@ -105,8 +105,20 @@ AOS.init({
 
 {% if page.url == '/donate/' %}
 <script>
+    
+
+    
 $('#rzp-button4').click(function(e){
    e.preventDefault();
+    var options = {
+    "key": "rzp_live_zHRVlE1ArZvSYS",
+    "name": "{{site.data.data.information.title}}",
+    "description": "General Projects",
+    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
+    "handler": function (response){
+        alert("Donation successful.");
+    }
+};
    options.amount = $('#razr-enter').val() * 100;
    var rzp4 = new Razorpay(options);   
    rzp4.open()
