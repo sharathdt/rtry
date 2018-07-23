@@ -1,0 +1,75 @@
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script>
+$('#rzp-button1').click(function(e){
+   e.preventDefault();
+    var options = {
+    "key": "{{site.rzp-key}}",
+    "amount": "100000", 
+    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
+    "handler": function (response){
+        alert("Donation successful.");
+    }
+};
+   options.name = $('#cataract-name').val();
+   options.description = $('#cataract-message').val();
+   var rzp1 = new Razorpay(options);
+   rzp1.open()
+});    
+</script>
+
+
+<script>
+$('#rzp-button2').click(function(e){
+   e.preventDefault();
+    var options = {
+    "key": "{{site.rzp-key}}",
+    "amount": "2500000", 
+    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
+    "handler": function (response){
+        alert("Donation successful.");
+    }
+};
+   options.name = $('#scholarship-name').val();
+   options.description = $('#scholarship-message').val();
+   var rzp2 = new Razorpay(options);
+   rzp2.open()
+});    
+</script>
+
+<script>
+$('#rzp-button3').click(function(e){
+   e.preventDefault();
+    var options = {
+    "key": "{{site.rzp-key}}",
+    "amount": "3500000", 
+    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
+    "handler": function (response){
+        alert("Donation successful.");
+    }
+};
+   options.name = $('#surgery-name').val();
+   options.description = $('#surgery-message').val();
+   var rzp3 = new Razorpay(options);
+   rzp3.open()
+});    
+</script>
+
+<script>
+$('#rzp-button4').click(function(e){
+   e.preventDefault();
+    var options = {
+    "key": "{{site.rzp-key}}",
+    "amount": "3500000", 
+    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
+    "handler": function (response){
+        alert("Donation successful.");
+    }
+};
+   options.name = $('#general-name').val();
+   options.amount = $('#general-amount').val() * 100;
+   options.description = $('#general-message').val();
+   var rzp4 = new Razorpay(options);
+   rzp4.open()
+});    
+</script>

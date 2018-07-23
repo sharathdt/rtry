@@ -61,6 +61,8 @@ permalink: /donate/
     </div>
 </section>
 
+
+
 <section class="pt-100 pb-80" id="donate-block">
    <div class="container">
       <div class="row">
@@ -74,7 +76,7 @@ permalink: /donate/
                   <div class="donate-image" style="background-image: url({{site.baseurl}}/images/cateract-surgery.jpg)">
                    <h4 class="text-center text-shadow white">Cataract Surgery</h4>
                    </div>
-                   <a class="btn btn-block btn-success" href="" id="rzp-button1">Donate ₹1000</a>
+                   <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#cataract">Donate ₹1000</button>
                </div>
            </div>
            <div class="col-md-4 pt-20" data-aos="zoom-in">
@@ -82,7 +84,8 @@ permalink: /donate/
                    <div class="donate-image" style="background-image: url({{site.baseurl}}/images/scholarship.jpg)">
                     <h4 class="text-center text-shadow white">Scholarship</h4>
                     </div>
-                   <a class="btn btn-block btn-success" href="" id="rzp-button2">Donate ₹25,000</a>
+                  <!--  <a class="btn btn-block btn-success" href="" id="rzp-button2">Donate ₹25,000</a> -->
+                   <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#scholarship">Donate ₹25,000</button>
                </div>
            </div>
            <div class="col-md-4 pt-20" data-aos="fade-left">
@@ -90,7 +93,8 @@ permalink: /donate/
                    <div class="donate-image" style="background-image: url({{site.baseurl}}/images/heart-surgery.jpg)">
                     <h4 class="text-center text-shadow white">Heart Surgery</h4>
                    </div>
-                   <a class="btn btn-block btn-success" href="" id="rzp-button3" >Donate ₹35,000</a>
+
+                   <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#surgery">Donate ₹25,000</button>
                </div>
            </div>
        </div>
@@ -101,75 +105,122 @@ permalink: /donate/
                    <div class="donate-image" style="background-image: url({{site.baseurl}}/images/general-projects.jpg)">
                     <h4 class="text-center text-shadow white">General Projects</h4>
                    </div>
-                    <form name='razorpayform' class="razr-value">
-                        <span>₹ &nbsp;</span><input type="text" name="amounter" id="razr-enter" value="1" placeholder="Enter any amount" min="1">
-                    </form>
-                   <a class="btn btn-block btn-success" href="" id="rzp-button4" >Donate</a>
+                   <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#general">Donate</button>
                </div>
            </div>
        </div>
     </div>
 </section>
 
+<!-- Modal Cateract -->
+<div class="modal fade" id="cataract" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="">Donate for Cataract Surgery</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="">
+       <div class="form-group">
+            <input type="text" name="name" id="cataract-name" placeholder="Name" class="form-control">
+        </div>
+         <div class="form-group">
+            <textarea name="comments" id="cataract-message" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+          </div>
+    </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-block btn-success" id="rzp-button1">Donate ₹1000</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 
+<!-- Modal Scholarship -->
+<div class="modal fade" id="scholarship" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="">Donate for Scholarship</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="">
+       <div class="form-group">
+            <input type="text" name="name" id="scholarship-name" placeholder="Name" class="form-control">
+        </div>
+         <div class="form-group">
+            <textarea name="comments" id="scholarship-message" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+          </div>
+    </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-block btn-success" id="rzp-button2">Donate ₹25000</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
-<script>
-var options = {
-    "key": "{{site.rzp-key}}",
-    "amount": "100000", 
-    "name": "{{site.data.data.information.title}}",
-    "description": "Cateract Surgery",
-    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
-    "handler": function (response){
-        alert("Donation successful.");
-    }
-};
-var rzp1 = new Razorpay(options);
+<!-- Modal Surgery -->
+<div class="modal fade" id="surgery" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="">Donate for Heart Surgery</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="">
+       <div class="form-group">
+            <input type="text" name="name" id="surgery-name" placeholder="Name" class="form-control">
+        </div>
+         <div class="form-group">
+            <textarea name="comments" id="surgery-message" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+          </div>
+    </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-block btn-success" id="rzp-button3">Donate ₹35000</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-document.getElementById('rzp-button1').onclick = function(e){
-    rzp1.open();
-    e.preventDefault();
-}
-</script>
-
-<script>
-var options = {
-    "key": "{{site.rzp-key}}",
-    "amount": "2500000", 
-    "name": "{{site.data.data.information.title}}",
-    "description": "Scholarship",
-    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
-    "handler": function (response){
-        alert("Donation successful.");
-    }
-};
-var rzp2 = new Razorpay(options);
-
-document.getElementById('rzp-button2').onclick = function(e){
-    rzp2.open();
-    e.preventDefault();
-}
-</script>
-
-<script>
-var options = {
-    "key": "{{site.rzp-key}}",
-    "amount": "3500000", 
-    "name": "{{site.data.data.information.title}}",
-    "description": "Heart Surgery",
-    "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
-    "handler": function (response){
-        alert("Donation successful.");
-    }
-};
-var rzp3 = new Razorpay(options);
-
-document.getElementById('rzp-button3').onclick = function(e){
-    rzp3.open();
-    e.preventDefault();
-}
-</script>
-
+<!-- Modal Surgery -->
+<div class="modal fade" id="general" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="">Donate for General Projects</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="">
+       <div class="form-group">
+            <input type="text" name="name" id="general-name" placeholder="Name" class="form-control">
+        </div>
+       <div class="form-group">
+            <span class="rupee">₹ &nbsp;</span><input type="number" name="name" id="general-amount" placeholder="Name" class="form-control" value="1" placeholder="Enter any amount" min="1">
+        </div>
+         <div class="form-group">
+            <textarea name="comments" id="general-message" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+          </div>
+    </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-block btn-success" id="rzp-button4">Donate</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
