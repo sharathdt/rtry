@@ -28,7 +28,7 @@ permalink: /newsletters/
    <div class="container">
       <div class="row">
         
-        {% for item in site.data.newsletters %}
+        {% for item in site.data.newsletters reversed %}
          <div class="col-md-8 col-md-offset-2 pt-40" id="#{{item.id}}"  data-aos="fade-up">
              <div class="box news-box" >
                 <h2>{{item.title}}</h2>
