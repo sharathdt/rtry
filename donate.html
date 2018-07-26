@@ -94,7 +94,7 @@ permalink: /donate/
                     <h4 class="text-center text-shadow white">Heart Surgery</h4>
                    </div>
 
-                   <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#surgery">Donate ₹25,000</button>
+                   <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#surgery">Donate ₹35,000</button>
                </div>
            </div>
        </div>
@@ -123,16 +123,19 @@ permalink: /donate/
         </button>
       </div>
       <div class="modal-body">
-      <form action="">
+      <form action="" id="f1">
        <div class="form-group">
             <input type="text" name="name" id="cataract-name" placeholder="Name" class="form-control">
         </div>
          <div class="form-group">
             <textarea name="comments" id="cataract-message" cols="30" rows="10" placeholder="Reason for donation..." class="form-control"></textarea>
           </div>
+         <div class="form-group">
+            <input type="checkbox" name="terms1" value="1"><span> I accept <a href="{{site.baseurl}}/terms-and-conditions/" target="_blank">terms</a>, <a href="{{site.baseurl}}/privacy/" target="_blank">privacy</a> & <a href="{{site.baseurl}}/refund-and-cancellation/" target="_blank">refund policy</a>.</span>
+          </div>
     </form>
       <div class="modal-footer">
-        <button type="button" class="btn btn-block btn-success" id="rzp-button1">Donate ₹1000</button>
+        <button type="submit" class="btn btn-block btn-success pay" id="rzp-button1" disabled>Donate ₹1000</button>
       </div>
     </div>
   </div>
@@ -151,16 +154,19 @@ permalink: /donate/
         </button>
       </div>
       <div class="modal-body">
-      <form action="">
+      <form action="" id="f2">
        <div class="form-group">
             <input type="text" name="name" id="scholarship-name" placeholder="Name" class="form-control">
         </div>
          <div class="form-group">
             <textarea name="comments" id="scholarship-message" cols="30" rows="10" placeholder="Reason for donation..." class="form-control"></textarea>
           </div>
+         <div class="form-group">
+            <input type="checkbox" name="terms2" value="1"><span> I accept <a href="{{site.baseurl}}/terms-and-conditions/" target="_blank">terms</a>, <a href="{{site.baseurl}}/privacy/" target="_blank">privacy</a> & <a href="{{site.baseurl}}/refund-and-cancellation/" target="_blank">refund policy</a>.</span>
+          </div>
     </form>
       <div class="modal-footer">
-        <button type="button" class="btn btn-block btn-success" id="rzp-button2">Donate ₹25000</button>
+        <button type="button" class="btn btn-block btn-success pay" id="rzp-button2" disabled>Donate ₹25000</button>
       </div>
     </div>
   </div>
@@ -179,16 +185,19 @@ permalink: /donate/
         </button>
       </div>
       <div class="modal-body">
-      <form action="">
+      <form action="" id="f3">
        <div class="form-group">
             <input type="text" name="name" id="surgery-name" placeholder="Name" class="form-control">
         </div>
          <div class="form-group">
             <textarea name="comments" id="surgery-message" cols="30" rows="10" placeholder="Reason for donation..." class="form-control"></textarea>
           </div>
+         <div class="form-group">
+            <input type="checkbox" name="terms3" value="1"><span> I accept <a href="{{site.baseurl}}/terms-and-conditions/" target="_blank">terms</a>, <a href="{{site.baseurl}}/privacy/" target="_blank">privacy</a> & <a href="{{site.baseurl}}/refund-and-cancellation/" target="_blank">refund policy</a>.</span>
+          </div>
     </form>
       <div class="modal-footer">
-        <button type="button" class="btn btn-block btn-success" id="rzp-button3">Donate ₹35000</button>
+        <button type="button" class="btn btn-block btn-success pay" id="rzp-button3" disabled>Donate ₹35000</button>
       </div>
     </div>
   </div>
@@ -206,7 +215,7 @@ permalink: /donate/
         </button>
       </div>
       <div class="modal-body">
-      <form action="">
+      <form action="" id="f4">
        <div class="form-group">
             <input type="text" name="name" id="general-name" placeholder="Name" class="form-control">
         </div>
@@ -216,9 +225,12 @@ permalink: /donate/
          <div class="form-group">
             <textarea name="comments" id="general-message" cols="30" rows="10" placeholder="Reason for donation..." class="form-control"></textarea>
           </div>
+         <div class="form-group">
+            <input type="checkbox" name="terms4" value="1"><span> I accept <a href="{{site.baseurl}}/terms-and-conditions/" target="_blank">terms</a>, <a href="{{site.baseurl}}/privacy/" target="_blank">privacy</a> & <a href="{{site.baseurl}}/refund-and-cancellation/" target="_blank">refund policy</a>.</span>
+          </div>
     </form>
       <div class="modal-footer">
-        <button type="button" class="btn btn-block btn-success" id="rzp-button4">Donate</button>
+        <button type="button" class="btn btn-block btn-success pay" id="rzp-button4" disabled>Donate</button>
       </div>
     </div>
   </div>
