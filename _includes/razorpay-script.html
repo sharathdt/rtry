@@ -3,6 +3,11 @@
 <script>
 $('#rzp-button1').click(function(e){
    e.preventDefault();
+
+    if((!$("#f1 input").val()) || (!$("#f1 textarea").val())) {
+	   alert("Please fill all the fields.");
+    } 
+else {
     var options = {
     "key": "{{site.rzp-key}}",
     "amount": "100000", 
@@ -10,6 +15,7 @@ $('#rzp-button1').click(function(e){
     "handler": function (response){
         alert("Donation successful.");
     }
+}
 };
    options.name = $('#cataract-name').val();
    options.description = $('#cataract-message').val();
@@ -22,12 +28,19 @@ $('#rzp-button1').click(function(e){
 <script>
 $('#rzp-button2').click(function(e){
    e.preventDefault();
+    
+    
+    if((!$("#f2 input").val()) || (!$("#f2 textarea").val())) {
+	   alert("Please fill all the fields.");
+    } 
+else {
     var options = {
     "key": "{{site.rzp-key}}",
     "amount": "2500000", 
     "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
     "handler": function (response){
         alert("Donation successful.");
+    }
     }
 };
    options.name = $('#scholarship-name').val();
@@ -40,12 +53,19 @@ $('#rzp-button2').click(function(e){
 <script>
 $('#rzp-button3').click(function(e){
    e.preventDefault();
+    
+    
+    if((!$("#f3 input").val()) || (!$("#f3 textarea").val())) {
+	   alert("Please fill all the fields.");
+    } 
+else {
     var options = {
     "key": "{{site.rzp-key}}",
     "amount": "3500000", 
     "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
     "handler": function (response){
         alert("Donation successful.");
+    }
     }
 };
    options.name = $('#surgery-name').val();
@@ -58,12 +78,19 @@ $('#rzp-button3').click(function(e){
 <script>
 $('#rzp-button4').click(function(e){
    e.preventDefault();
+    
+    
+    if((!$("#f4 input").val()) || (!$("#f4 textarea").val())) {
+	   alert("Please fill all the fields.");
+    } 
+else {
     var options = {
     "key": "{{site.rzp-key}}",
     "amount": "3500000", 
     "image": "{{site.url}}{{site.baseurl}}/images/rotary-wheel-small.png",
     "handler": function (response){
         alert("Donation successful.");
+    }
     }
 };
    options.name = $('#general-name').val();
@@ -79,7 +106,7 @@ $('#rzp-button4').click(function(e){
 {% for i in (1..4) %}
 <script>
 $('input[name="terms{{i}}"]').click(function () {
-    if (($(this).is(':checked')) && ($('#f{{i}} .form-control').val())) {
+    if ($(this).is(':checked')) {
 
         $('#rzp-button{{i}}').removeAttr('disabled'); 
 
@@ -90,5 +117,6 @@ $('input[name="terms{{i}}"]').click(function () {
 });
 </script>
 {% endfor %}
+
 
 
