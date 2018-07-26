@@ -449,6 +449,19 @@ img {
             top: 25vh;
         }
     }
+    .owl-dots {
+        position: relative;
+        top: -52px;
+        margin-top: 0 !important;
+        height: 0;
+    }
+    
+      .owl-dot.active span,  .owl-dot:hover span {
+        background: $brand-color !important;        
+    }
+    
+    
+
 }
 
 .hero-box {
