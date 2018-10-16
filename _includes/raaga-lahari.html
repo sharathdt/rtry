@@ -13,18 +13,35 @@
   </div>
   <div class="modal-footer">
 	<a href="{{site.baseurl}}/raagalahari/" class="btn btn-success">Visit Raaga Lahari</a>
-	<button type="button" class="btn btn-default" data-dismiss="modal" style="float: right">Close</button>
+	<a type="button" class="btn btn-default" data-dismiss="modal">Close</a>
   </div>
 </div>
 
 </div>
 </div>
-
+<style>
+	#ragalahari .modal-footer .btn-success {
+		margin-bottom: 10px;
+		float: left;
+	}
+	#ragalahari .modal-footer .btn-default {
+		float: left;
+	}
+</style>
 
 <script>
-	$(window).ready(function(){
-setTimeout(function() {
-    $('#ragalahari').modal();
-}, 5000);
+$(window).ready(function(){
+	console.log('ready');
+	setTimeout(function() {
+		console.log('entered timeout');
+		if(!sessionStorage.getItem('ThisFeature') == '1') {
+			console.log('entered loop');
+			$('#ragalahari').modal();
+		window.sessionStorage.setItem("ThisFeature", "1");
+
+	}
+ }, 5000);
 });
 </script>
+
+
