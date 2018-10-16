@@ -5,7 +5,7 @@ permalink: /raagalahari/
 image: /images/raagalahari.jpg
 ---
 
-<section class="hero-3" style="background-image: url({{site.baseurl}}{{page.image}}); background-blend-mode: soft-light;background-position: top center">
+<section class="hero-3 raagalahari" style="background-image: url({{site.baseurl}}{{page.image}}); background-blend-mode: soft-light;background-position: top center">
    <div class="container">
       <div class="row">
          <div class="col-md-8">
@@ -28,7 +28,7 @@ image: /images/raagalahari.jpg
 				<ol>
 				<li><p>Registrations will be accepted online at <a href="{{site.url}}{{page.url}}">{{site.url}}{{page.url}}</a> on a first come first served basis.</p></li>
 
-				<li><p>An entry fee of <strong>Rs.100/-</strong> will be charged per participant per category payable online or at through cash at the venue.</p></li>
+				<li><p>An entry fee of <strong>Rs.100/-</strong> will be charged per participant per category payable by cash at the venue.</p></li>
 
 				<li><p>Participation will be in two categories - Juniors (10-14 years) and seniors (15-18 years).</p></li>
 
@@ -193,10 +193,11 @@ image: /images/raagalahari.jpg
                <div class="form-group" >
                   <input class="form-control"  type="date" placeholder="Date of Birth" name="entry.894277532" id="DOB" max="2008-12-31" min="2001-01-01" required >
                   <br>
-                  <p id="exact_age"></p>
+                  <p id="exact_age" style="color:#41c741"></p>
+                  <p id="cat-show" style="color:#41c741"></p>
                </div>
                <div class="form-group" >
-                  <input class="form-control"  type="hidden" placeholder="Category" name="entry.1287277232" id="cat">
+                  <input class="form-control"  type="hidden" placeholder="Category" name="entry.1287277232" id="cat" >
                </div>
                <div class="form-group" >
                   <input class="form-control"  type="text" placeholder="Name of Educational Institution" name="entry.1267532964">
@@ -362,10 +363,12 @@ $(document).ready(function(){
         
 		if(differenceInMilisecond > 435232494855){
 			$('#cat').val('Senior');
+			$('#cat-show').html('Senior Category');
 			$('#sen-only').show();
 		}
 		else {
 			$('#cat').val('Junior');
+			$('#cat-show').html('Junior Category');
 			$('#sen-only').hide();
 		}
 		

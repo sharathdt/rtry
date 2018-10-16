@@ -622,3 +622,11 @@ li {
     top: 20%;
     left: 2px;
 }
+
+
+.raagalahari {
+	@include media-query($on-palm) {
+		margin-top: 80px;
+		height: 100vh;
+	}
+}
