@@ -106,9 +106,11 @@ AOS.init({
 
 {% if page.url == '/donate/' %}
 {% include razorpay-script.html %}
-
 {% endif %}
     
+{% if page.url == '/' %}    
+{% include raaga-lahari.html %}
+{% endif %}
 </body>
 
 </html>

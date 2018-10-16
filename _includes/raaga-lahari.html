@@ -1,0 +1,30 @@
+  <!-- Modal -->
+<div id="ragalahari" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<!-- Modal content -->
+<div class="modal-content">
+  <div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal">&times;</button>
+	<h4 class="modal-title">Raaga Lahari</h4>
+  </div>
+  <div class="modal-body">
+	Would you like to participate in Raaga Lahari?
+  </div>
+  <div class="modal-footer">
+	<a href="{{site.baseurl}}/raagalahari/" class="btn btn-success">Visit Raaga Lahari</a>
+	<button type="button" class="btn btn-default" data-dismiss="modal" style="float: right">Close</button>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+<script>
+	$(window).ready(function(){
+setTimeout(function() {
+    $('#ragalahari').modal();
+}, 3000);
+});
+</script>
