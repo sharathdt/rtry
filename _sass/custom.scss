@@ -629,6 +629,13 @@ li {
 		margin-top: 80px;
 		height: 100vh;
 	}
+	.hero-box {
+		padding-top: 80px;
+		@include media-query($on-palm) {
+			padding-top: 0;
+		}
+	}
+	
 }
 
 	.raaga {
