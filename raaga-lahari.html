@@ -157,6 +157,21 @@ image: /images/raagalahari.jpg
 
 				<p>Children should come with their costumes and hairdo to the venue.</p>
          		<br>
+         		
+                <div class="alert alert-danger">
+                <h4>Registration is closed for the following categories!</h4> 
+                <ul>
+                   <strong>Juniors</strong>
+                    <li>Carnatic Classical</li>
+                    <li>Light Classical</li>
+                    <li>Dance (Bharatanatyam)</li>
+                </ul>
+                <br>
+                <ul>
+                   <strong>Seniors</strong>
+                    <li>Dance (Bharatanatyam)</li>
+                </ul>
+                </div>
          		<br>
 				<div class="boxes">
 				<input type="checkbox" id="box-1">
@@ -215,20 +230,20 @@ image: /images/raagalahari.jpg
                <div class="form-group">
                		<h6>Select any Two</h6>
 					<input class="form-check-input" type="checkbox" value="Carnatic Classical" id="Check1" name="entry.1698095396">
-					<label class="form-check-label" for="Check1">Carnatic Classical</label>
+					<label class="form-check-label" for="Check1" id="label1">Carnatic Classical</label>
 					<br>	
 					<input class="form-check-input" type="checkbox" value="Folk Song" id="Check2" name="entry.1698095396">
-					<label class="form-check-label" for="Check2">Folk Song</label>
+					<label class="form-check-label" for="Check2" id="label2">Folk Song</label>
 					<br>
 					<input class="form-check-input" type="checkbox" value="Light Classical" id="Check3" name="entry.1698095396">
-					<label class="form-check-label" for="Check3">Light Classical</label>
+					<label class="form-check-label" for="Check3" id="label3">Light Classical</label>
 					<br>
 					<input class="form-check-input" type="checkbox" value="Dance" id="Check4" name="entry.1698095396">
-					<label class="form-check-label" for="Check4">Dance</label>
+					<label class="form-check-label" for="Check4" id="label4">Dance</label>
 					<br>
 					<div id="sen-only" style="display: none">
 					<input class="form-check-input" type="checkbox" value="Instrumental" id="Check5" name="entry.1698095396">
-					<label class="form-check-label" for="Check5">Instrumental (Only for seniors)</label>
+					<label class="form-check-label" for="Check5" id="label5">Instrumental (Only for seniors)</label>
                		</div>
                 
                </div>
@@ -368,11 +383,20 @@ $(document).ready(function(){
 			$('#cat').val('Senior');
 			$('#cat-show').html('Senior Category');
 			$('#sen-only').show();
-		}
+            $("#Check4").attr("disabled", true);
+            $("#label4").append(" (Registration Closed)");
+            
+		} 
 		else {
 			$('#cat').val('Junior');
 			$('#cat-show').html('Junior Category');
 			$('#sen-only').hide();
+            $("#Check1").attr("disabled", true);
+            $("#Check3").attr("disabled", true);
+            $("#Check4").attr("disabled", true);
+            $("#label1").append(" (Registration Closed)");
+            $("#label3").append(" (Registration Closed)");
+            $("#label4").append(" (Registration Closed)");
 		}
 		
         if (isNaN(year_age) || isNaN(month_age) || isNaN(day_age)) {
