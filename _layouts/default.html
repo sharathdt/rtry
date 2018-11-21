@@ -8,31 +8,31 @@ layout: compress
 {% include head.html %}
 
 <body data-spy="scroll" data-target="#navigation" data-offset="100" id="top" >
-    
+
     <div class="loader-backdrop">           <!-- Pre Loader -->
         <div class="loader" style="background-image: url({{site.baseurl}}/images/rotary.gif); background-repeat: no-repeat;">
         </div>
     </div>
 
  {% include news.html %}
- 
+
  {% include header.html %}
-    
+
    {{content}}
-     
-      
+
+
     <!-- Footer -->
     {% include footer.html %}
 
     <!-- Back To Top Button -->
     <a href="#top" id="backHome" class="scroll-link"><i class="ion-arrow-up-c"></i></a>
-    
+
     <!-- JQuery Version 2.2.4 -->
     <script src="{{site.baseurl}}/js/jquery.min.js" type="text/javascript"></script>
-    
+
     <!-- Bootstrap Version 3.3.7 -->
     <script src="{{site.baseurl}}/js/bootstrap.min.js" type="text/javascript"></script>
-    
+
     <!-- Owl Carousel 2 JS -->
     <script src="{{site.baseurl}}/js/owl.carousel.min.js" type="text/javascript"></script>
 
@@ -50,14 +50,14 @@ layout: compress
 
     <!-- Custom JS -->
     <script src="{{site.baseurl}}/js/script.js" type="text/javascript"></script>
-    
+
     <script>
         $('.scroll-link').click(function() {
             $('.navbar-collapse').collapse('hide');
         });
 
     </script>
-    
+
 <script>
 $('.owl-intro').owlCarousel({
     items:1,
@@ -68,7 +68,7 @@ $('.owl-intro').owlCarousel({
     nav:false,
     dots: true
 
-})    
+})
 </script>
 
 <script>
@@ -81,9 +81,9 @@ $('.owl-projects').owlCarousel({
     dots: false,
     navText : ['<svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" stroke="white" stroke-width="2" d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"/></svg>','<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" stroke="white" stroke-width="2" d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>']
 
-})    
+})
 </script>
-    
+
 <script type="text/javascript">
     $(document).ready(function(){
         $(".slide-toggle, .close-btn").click(function(){
@@ -97,9 +97,9 @@ $('.owl-projects').owlCarousel({
  <script>
 AOS.init({
   offset: 200,
-  duration: 1000,
+  duration: 800,
   easing: 'ease-in-sine',
-  delay: 100,
+  delay: 50,
   disable: 'mobile'
 });
 </script>
