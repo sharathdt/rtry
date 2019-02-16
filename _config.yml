@@ -5,6 +5,7 @@ url: https://www.rotaryindiranagar.org
 
 # rzp-key: rzp_test_JHnpJryvRjWVkF #test
 rzp-key: rzp_live_zHRVlE1ArZvSYS #live
+rzp-key: rzp_live_VrKAIcJw4tDfuK #live
 
 #optimization
 #compress.html
@@ -21,8 +22,8 @@ compress_html:
 
 sass:
  style: compressed
- 
+
 plugins:
     - jekyll-seo-tag
-    
+
 destination: public
