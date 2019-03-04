@@ -18,18 +18,18 @@ img {
     font-weight: bold;
     color:  #ff0 !important;
     text-shadow: 0px 0px 1px;
-    
+
     @include media-query($on-palm) {
         font-size: 1.5em !important;
         margin: 0;
     }
-    
+
 }
 
 .hero-text {
-        
+
     font-weight: bold !important;
-       
+
     @include media-query($on-palm) {
         font-size: $base-font-size * 0.8;
     }
@@ -72,11 +72,11 @@ img {
     -webkit-box-shadow: 0 10px 20px -12px rgba(0,0,0,.18);
     -moz-box-shadow: 0 10px 20px -12px rgba(0,0,0,.18);
     box-shadow: 0 10px 20px -12px rgba(0,0,0,.18);
-    
-    @include media-query($on-palm) { 
+
+    @include media-query($on-palm) {
         height: auto;
     }
-    
+
 }
 
 .fh5co-blog .blog-text span.posted_by {
@@ -120,7 +120,7 @@ img {
     webkit-box-shadow: 0 10px 50px -12px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0 10px 50px -12px rgba(0, 0, 0, 0.18);
     box-shadow: 0 10px 50px -12px rgba(0, 0, 0, 0.18);
-    
+
     .image {
         max-width: 100%;
         border-radius: 4px 4px 0 0;
@@ -193,7 +193,7 @@ img {
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Safari */
     transform: rotate(-90deg);
-    
+
     @include media-query($on-palm) {
         display: none;
     }
@@ -234,9 +234,9 @@ img {
     @include media-query($on-palm) {
         display: inline-block;
     }
-    
+
     &:hover {
-        color: #fff !important; 
+        color: #fff !important;
     }
 }
 
@@ -248,7 +248,7 @@ img {
     height: 100%;
     background-color: white;
     border-bottom: 5px solid #019fcb;
-    
+
     @include media-query($on-palm) {
         margin-bottom: 20px;
     }
@@ -263,12 +263,12 @@ img {
         height: 215px;
         background-color: #fff;
         padding: 10px 30px;
-        
+
         @include media-query($on-palm) {
             height: auto;
-            
+
         }
-        
+
     }
 }
 
@@ -276,7 +276,7 @@ img {
     border-bottom: 5px solid #01a2a2;
 }
 .box-3 {
-    border-bottom: 5px solid #963a86;    
+    border-bottom: 5px solid #963a86;
 }
 
 .blue {
@@ -300,18 +300,18 @@ img {
             padding: 20px;
             font-weight: normal;
             }
-        
+
         .btn {
             border-radius: 0;
         }
     }
-    
+
     .donate-image {
         height: 150px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        
+
     }
 }
 
@@ -358,14 +358,14 @@ img {
 
 
 .footer {
-    
-    
+
+
     .links-box {
         @include media-query($on-palm) {
             text-align: center !important;
             margin-bottom: 20px;
         }
-        
+
         ul {
             @include media-query($on-palm) {
                 padding: 0;
@@ -377,18 +377,18 @@ img {
         @include media-query($on-palm) {
             text-align: center;
         }
-        
+
     }
-    
+
     .about-box {
         img {
             opacity: 0.7;
         }
-        
+
         @include media-query($on-palm) {
             text-align: center;
         }
-        
+
     }
     .contact {
         li {
@@ -399,9 +399,9 @@ img {
             }
         }
     }
-    
+
     .polio {
- 
+
         @include media-query($on-palm) {
             text-align: center !important;
         }
@@ -420,7 +420,7 @@ img {
 }
 .footer-sec {
     background-color: #343a40 !important;
-    
+
     .rights, .dev {
         @include media-query($on-palm) {
             text-align: center;
@@ -434,12 +434,12 @@ img {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
-        
+
         @include media-query($on-palm) {
             height: 60vh;
         }
     }
-    
+
     .hero-box {
         position: absolute;
         left: 0%;
@@ -455,12 +455,12 @@ img {
         margin-top: 0 !important;
         height: 0;
     }
-    
+
       .owl-dot.active span,  .owl-dot:hover span {
-        background: $brand-color !important;        
+        background: $brand-color !important;
     }
-    
-    
+
+
 
 }
 
@@ -474,12 +474,12 @@ img {
 }
 
 .owl-projects {
-    
+
     .owl-prev, .owl-next {
          transition-duration: 300ms;
          background-color: transparent !important;
          outline: none;
-         
+
          &:hover {
             -moz-transform: scale(1.6);
             -ms-transform: scale(1.6);
@@ -487,28 +487,28 @@ img {
             -webkit-transform: scale(1.6);
             transform: scale(1.6);
         }
-        
+
     }
-    
+
     .box {
         .body {
             padding: 20px;
         }
     }
-    
+
     .image {
-        width: 100%;   
+        width: 100%;
         min-height: 380px;
-        background-size: cover; 
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 0px 4px 4px 0;
-        
+
         @include media-query($on-palm) {
             min-height: 200px;
             height: auto;
         }
-        
+
     }
 }
 
@@ -516,33 +516,33 @@ img {
     width: 800px;
     max-width: 100%;
     margin: 0;
-    
+
     .modal-content {
         background-color: #222;
         color: #fff;
-         
+
         h3 {
             color: #fff;
         }
     }
-    
+
     .close {
         color: #fff;
         font-size: 30px;
     }
-    
+
     .modal-footer {
         border: none;
     }
-    
+
     .owl-prev {
         margin-right: 10px !important;
-    }    
-    
+    }
+
     .owl-next {
         margin-left: 10px !important;
     }
-    
+
 }
 
 #about {
@@ -554,14 +554,14 @@ img {
 }
 
 .social {
-    
+
     @include media-query($on-palm) {
         text-align: center;
     }
-    
+
 li {
-    
-    
+
+
     @include media-query($on-palm) {
         float: none;
         display: inline-block;
@@ -582,9 +582,9 @@ li {
     height: 315px;
     width: 100%;
     border: 2px solid $brand-color;
-    
+
     @include media-query($on-palm) {
-        height: 165px;
+        height: 225px;
     }
 }
 
@@ -602,7 +602,7 @@ li {
 
 .page {
     padding: 150px 0;
-    
+
        @include media-query($on-palm) {
             padding: 100px 0;
     }
@@ -610,7 +610,7 @@ li {
 
 .page-title {
     font-size: 2em;
-    
+
     @include media-query($on-palm) {
             font-size: 1.8em;
     }
@@ -635,7 +635,7 @@ li {
 			padding-top: 0;
 		}
 	}
-	
+
 }
 
 	.raaga {
