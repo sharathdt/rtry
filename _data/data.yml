@@ -1,6 +1,6 @@
 information:
     title: Rotary Bangalore Indiranagar
-    description: 
+    description:
     phone: +91 80 25267014
     email: rotaryindiranagar@gmail.com
     facebook: https://www.facebook.com/groups/122507691097136/
@@ -10,80 +10,84 @@ information:
 menus:
     - title: Home
       link: '#home'
-      
+
     - title: About Us
       link: '#about'
 
     - title: Focus Areas
       link: '#our-focus'
-      
+
     - title: Projects
-      link: '#projects'  
-      
+      link: '#projects'
+
     - title: Videos
-      link: '#videos' 
-      
+      link: '#videos'
+
     - title: Contact Us
       link: '#contact'
-      
+
     - title: Join Us
       link: 'join-us'
+      external: yes
+
+    - title: Newsletters
+      link: 'newsletters'
       external: yes
 
 
 
 focus:
-    
+
     - title: Fighting Disease
       category: fighting
       image: /images/home-causes-disease.jpg
       description: We are resolved to rid the world of polio forever. We also educate and equip communities to stop other diseases and expand access to health care.
       link: focus-1
-      
-      
+
+
     - title: Providing Clean Water
       category: sanitation
       image: /images/home-causes-water.jpg
       description: We help bring sustainable clean water, sanitation, and hygiene to more people every day. We don’t just build wells and walk away.
       link: focus-2
-      
-      
+
+
     - title: Saving Mothers & children
       category: saving
       image: /images/home-causes-children.jpg
       description: We expand access to quality medical care, sanitation, education and economic opportunities so mothers and their children can live and grow stronger.
       link: focus-3
-            
+
     - title: Basic Education & Literacy
       category: education
       image: /images/home-causes-education.jpg
       description: Our goal is to strengthen the capacity of communities to support basic education and literacy, reduce gender disparity in education, and increase adult literacy.
       link: focus-4
-                  
+
     - title: Local Community Development
       category: community
       image: /images/home-causes-economies.jpg
       description: We carry out service projects that enhance economic and community development and create opportunities for decent and productive work for young and old.
       link: focus-5
-      
+
     - title: Peace & conflict prevention/resolution
       category: peace
       image: /images/home-causes-peace.jpg
       description: Rotary fosters understanding across cultures. We train adults and young leaders to prevent and mediate conflict and help refugees who have fled dangerous areas.
       link: focus-6
-      
-      
+
+
 projects:
     - title: Subsidised Heart Surgery
       image: /images/surgery.jpg
       description: We took up the ambitious project of providing 250 subsidised heart surgeries/year which has won the Best Cooperative Projects Award.
       link: project-1
-      
+
     - title: Blood Donation Drive
       image: /images/blood-donation.jpg
       description: Our Blood Bank has been providing Blood banking & Transfusion services to hospitals & patients in Bangalore and surrounding districts since 1984.
       link: project-2
-      
+
     - title: Karunashraya, The Hospice
       image: /images/karunashraya.jpg
       description: The story of our flagship project. Its a story of Care and Compassion built with dedication beyond any defined level!
