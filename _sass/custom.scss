@@ -168,6 +168,8 @@ img {
     }
 }
 .news-body {
+    height: 350px;
+    overflow: auto;
     color: #333;
     padding: 30px;
 }
