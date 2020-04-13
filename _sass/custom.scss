@@ -445,7 +445,8 @@ img {
     .hero-box {
         position: absolute;
         left: 0%;
-        top: 53vh;
+        //top: 53vh;
+        top: 45vh;
         @include media-query($on-palm) {
             left: 5%;
             top: 25vh;
