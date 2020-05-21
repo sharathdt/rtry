@@ -10,7 +10,7 @@
             <ul>
                 {% for item in site.data.newsletters reversed %}
                     <li>
-                        <a class="scroll-link" href="{{site.baseurl}}/newsletters/#{{item.id}}">{{item.title}}</a>
+                        <a class="scroll-link" href="{% if item.pdf %}/newsletters/{{item.pdf}}{% else %}{{site.baseurl}}/newsletters/#{{item.id}}{% endif %}" {% if item.pdf %}target="_blank"{% endif %}>{{item.title}}</a>
                     </li>
                 {% endfor %}
 
