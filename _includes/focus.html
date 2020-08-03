@@ -42,17 +42,6 @@
             {% for pro in site.data.projects %}
             {% if pro.category == item.category %}
              
-              <!-- <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">{{pro.title}}</h4>
-                  
-              </div>
-              <div class="modal-body">
-               <img class="img-responsive" src="{{site.baseurl}}/images/projects/{{pro.image}}" alt="{{pro.title}}">
-               <br>
-                <p>{{pro.description}}</p>
-              
-              </div> -->
                 <div class="item">
                   <div class="box bg-img" style="background-image: url({{site.baseurl}}/images/geo-red.png)">
                    <div class="row">
@@ -119,18 +108,6 @@
             <div class="owl-carousel owl-projects owl-theme">
             {% for pro in site.data.projects %}
             {% if pro.category == item.category %}
-             
-              <!-- <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">{{pro.title}}</h4>
-                  
-              </div>
-              <div class="modal-body">
-               <img class="img-responsive" src="{{site.baseurl}}/images/projects/{{pro.image}}" alt="{{pro.title}}">
-               <br>
-                <p>{{pro.description}}</p>
-              
-              </div> -->
                 <div class="item">
                   <div class="box bg-img" style="background-image: url({{site.baseurl}}/images/geo-red.png)">
                    <div class="row">
@@ -170,21 +147,18 @@
        <div class="row justify-content-center">        
         {% for item in site.data.data.focus offset: 6 limit: 1 %}
           <div class="col-lg-4 col-md-4 col-sm-6" data-aos="flip-right">
-            <div class="fh5co-blog"><a href="#{{item.link}}" data-toggle="modal" data-target="#{{item.link}}"><img class="img-responsive" src="{{site.baseurl}}{{item.image}}" alt="website template image"></a>
+            <div class="fh5co-blog"><a href="https://www.rotary.org/en/supporting-environment-becomes-new-area-focus" target="_blank"><img class="img-responsive" src="{{site.baseurl}}{{item.image}}" alt="website template image"></a>
               <div class="blog-text">
                 <div class="prod-title">
-                  <h3><a href="#{{item.link}}" data-toggle="modal" data-target="#{{item.link}}">{{item.title}}</a></h3>
+                  <h3><a href="https://www.rotary.org/en/supporting-environment-becomes-new-area-focus" target="_blank">{{item.title}}</a></h3>
                   <p>{{item.description | truncate: 120}}</p>
-                  <p><a href="#{{item.link}}" >Learn More...</a></p>
+                  <p><a href="https://www.rotary.org/en/supporting-environment-becomes-new-area-focus" target="_blank">Learn More...</a></p>
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
     {% endfor %}
         </div>
         
-        
         </div>
-
-
     </section>
