@@ -14,7 +14,7 @@ img {
 }
 
 .hero-heading {
-    font-size: 3em !important;
+    font-size: 2em !important;
     font-weight: bold;
     color:  #ff0 !important;
     text-shadow: 0px 0px 1px;
@@ -436,20 +436,22 @@ img {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
-
         @include media-query($on-palm) {
-            height: 60vh;
+            height: 80vh;
         }
     }
 
     .hero-box {
         position: absolute;
         left: 0%;
-        //top: 53vh;
         top: 45vh;
+        background-color: rgba(0,0,0,0.5);
+        padding: 10px 20px;
+        border-radius: 10px;
         @include media-query($on-palm) {
             left: 5%;
-            top: 25vh;
+            top: 20vh;
+            max-width: 90%;
         }
     }
     .owl-dots {
