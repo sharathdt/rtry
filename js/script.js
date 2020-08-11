@@ -8,7 +8,7 @@ $(document).on("ready",function(){
 });
 */
 
-$(window).on("load",function(){
+$(document).ready(function() {
 
     $(".loader-backdrop").fadeOut();            // Pre Loader
     
