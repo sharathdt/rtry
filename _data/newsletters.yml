@@ -167,7 +167,6 @@
   id: feb-20
   pdf: SEVA-Vol-39-Issue-09.pdf
 
-
 - title: Seva Newsletter Volume 39, Issue 10
   description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
   date: March 16
@@ -181,7 +180,6 @@
   contact: "+91 8025267014"
   id: apr-10
   pdf: SEVA-Vol-39-Issue-11.pdf
-
 
 - title: Seva Newsletter Volume 39, Issue 12
   description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
@@ -260,6 +258,9 @@
   id: oct-13
   pdf: SEVA-October-2020-Issue-4.pdf
 
-   
-   
-   
+- title: Seva Newsletter Volume 40, Issue 06
+  description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
+  date: November 10
+  contact: "+91 8025267014"
+  id: nov-10
+  pdf: SEVA-November-2020-Issue-6.pdf
