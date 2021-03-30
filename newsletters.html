@@ -4,51 +4,63 @@ permalink: /newsletters/
 ---
 
 <style>
-    .btn.btn-info.slide-toggle {
-        display: none;
-    }
+  .btn.btn-info.slide-toggle {
+    display: none;
+  }
 </style>
 
-<section class="hero-3" style="background-image: url({{site.baseurl}}/images/newsletters.png); background-blend-mode: soft-light;">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-8">
-            <div class="hero-box">
-            <h1 class="hero-heading" data-aos="zoom-in">Newsletters</h1>
-            <p class="hero-text text-shadow"></p>
-            </div>
-         </div>
+<section
+  class="hero-3"
+  style="background-image: url({{site.baseurl}}/images/newsletters.png); background-blend-mode: soft-light;"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="hero-box">
+          <h1 class="hero-heading" data-aos="zoom-in">Newsletters</h1>
+          <p class="hero-text text-shadow"></p>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 </section>
-
-
 
 <section class="pb-80 bgcolor3" id="">
-   <div class="container">
-      <div class="row">
-        
-        {% for item in site.data.newsletters reversed %}
-         <div class="col-md-8 col-md-offset-2 pt-40" id="#{{item.id}}"  data-aos="fade-up">
-             <div class="box news-box" >
-                <h2>{{item.title}}</h2>
-                <hr>
-                <p>{{item.description}}</p>
-<p class="text-right gr"><small>{% if item.date %} <span class="ion ion-calendar"></span> {{item.date}}{% endif %}  {% if item.time %}<span>&nbsp;&nbsp;</span> <span class="ion ion-clock"></span>  {{item.time}}{% endif %}  {% if item.venue %}<span>&nbsp;&nbsp;</span>  <span class="ion ion-location"></span> {{item.venue}} {% endif %}  {% if item.contact %}<span>&nbsp;&nbsp;</span>  <span class="ion ion-android-call"></span> {{item.contact}}{% endif %} {% if item.pdf %}<span> &nbsp;&nbsp; </span><a href="{{site.baseurl}}/newsletters/{{item.pdf}}" target="_blank"><span class="ion ion-document"></span> pdf</a> {% endif %}</small></p>
-                
-             </div>
-          </div>
-         {% endfor %}
-        
-          
-       </div>
+  <div class="container">
+    <div class="row">
+      {% for item in site.data.newsletters reversed %}
+      <div
+        class="col-md-8 col-md-offset-2 pt-40"
+        id="#{{item.id}}"
+        data-aos="fade-up"
+      >
+        <div class="box news-box">
+          <h2>{{item.title}}</h2>
+          <hr />
+          <p>{{item.description}}</p>
+          <p class="text-right gr">
+            <small
+              >{% if item.date %}
+              <span class="ion ion-calendar"></span> {{item.date}}{% endif %} {%
+              if item.time %}<span>&nbsp;&nbsp;</span>
+              <span class="ion ion-clock"></span> {{item.time}}{% endif %} {% if
+              item.venue %}<span>&nbsp;&nbsp;</span>
+              <span class="ion ion-location"></span> {{item.venue}} {% endif %}
+              {% if item.contact %}<span>&nbsp;&nbsp;</span>
+              <span class="ion ion-android-call"></span
+              ><a href="tel:{{item.contact}}"> {{item.contact}}</a>{% endif %} {%
+              if item.pdf %}<span> &nbsp;&nbsp; </span
+              ><a
+                href="{{site.baseurl}}/newsletters/{{item.pdf}}"
+                target="_blank"
+                ><span class="ion ion-document"></span> pdf</a
+              >
+              {% endif %}</small
+            >
+          </p>
+        </div>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
-
-
-
-
-
-
-
-
