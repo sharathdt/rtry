@@ -258,6 +258,13 @@
   id: oct-13
   pdf: SEVA-October-2020-Issue-4.pdf
 
+- title: Seva Newsletter Volume 40, Issue 05 KARUNASHRAYA
+  description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
+  date: October 24
+  contact: "+91 8025267014"
+  id: oct-24
+  pdf: "5. SEVA - Karunashraya (Special Edition).pdf"
+
 - title: Seva Newsletter Volume 40, Issue 06
   description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
   date: November 10
@@ -271,3 +278,24 @@
   contact: "+91 8025267014"
   id: mar-20
   pdf: Vidya-Daan-Inaugural-Issue.pdf
+
+- title: Seva Newsletter Volume 40, Issue 07 GOV Special
+  description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
+  date: December 7
+  contact: "+91 8025267014"
+  id: dec-7
+  pdf: "7. SEVA - GOV (Special Edition).pdf"
+
+- title: Seva Newsletter Volume 40, Issue 08
+  description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
+  date: January 14
+  contact: "+91 8025267014"
+  id: jan-14
+  pdf: "8. SEVA - January 2021.pdf"
+
+- title: Seva Newsletter Volume 40, Issue 09
+  description: "SEVA is the monthly newsletter of Rotary Bangalore Indiranagar. It features projects and achievements of the previous month as well as from the world of Rotary International."
+  date: February 18
+  contact: "+91 8025267014"
+  id: feb-18
+  pdf: "9. SEVA - February 2021.pdf"
